@@ -1,0 +1,7 @@
+.container {
+  @include container;
+}
+
+.container-fluid {
+  @include container-full();
+}

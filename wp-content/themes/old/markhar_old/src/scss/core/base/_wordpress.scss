@@ -1,0 +1,188 @@
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wp-caption {
+  max-width: 96%; /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+
+  text-align: center;
+
+  background: #fff;
+  border: 1px solid #f0f0f0;
+}
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  width: auto;
+  max-width: 98.5%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+
+  border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+  margin: 0;
+  padding: 0 4px 5px;
+
+  font-size: 11px;
+  line-height: 17px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  position: absolute !important;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+
+  border: 0;
+
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+}
+
+.screen-reader-text:focus {
+  top: 5px;
+  left: 5px;
+  z-index: 100000;
+
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 15px 23px 14px;
+
+  color: #444;
+  font-size: 1em;
+  line-height: normal;
+  text-decoration: none;
+
+  background-color: #eee;
+
+  clip: auto !important;
+  clip-path: none;
+
+  /* Above WP toolbar. */
+}
+
+/* Galleries
+--------------------------------------------- */
+.gallery {
+  display: grid;
+  grid-gap: 0.6em;
+  margin: 0 0 1.5em;
+}
+
+.gallery-item {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+
+  text-align: center;
+}
+
+.gallery-icon a {
+  display: block;
+  overflow: hidden;
+
+  line-height: 0;
+}
+
+.gallery-icon a img {
+  transition: $transition;
+}
+
+.gallery-icon a:hover img,
+.gallery-icon a:focus img {
+  transform: scale(1.1);
+}
+
+.gallery-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.gallery-columns-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.gallery-columns-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.gallery-columns-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.gallery-columns-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.gallery-caption {
+  display: block;
+}

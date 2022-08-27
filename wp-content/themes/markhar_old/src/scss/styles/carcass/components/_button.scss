@@ -1,0 +1,116 @@
+.button,
+input[type="submit"] {
+  position: relative;
+
+  display: inline-block;
+  padding: 20px 30px;
+
+  color: get-color('primary');
+  font: inherit;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: transparent;
+  border: 3px solid get-color('primary');
+
+  cursor: pointer;
+
+  transition: $transition;
+
+  &::after {
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+
+    content: '';
+  }
+
+  &:hover,
+  &:focus {
+    color: get-color('white');
+
+    background-color: get-color('primary');
+    border-color: transparent;
+  }
+}
+
+.button--primary {
+  color: get-color('white');
+
+  background-color: get-color('primary');
+  border-color: get-color('primary');
+
+  // &::after {
+  //   border-bottom: 10px solid #fff;
+  // }
+
+  &:hover,
+  &:focus {
+    color: get-color('black');
+
+    background-color: transparent;
+    border-color: get-color('primary');
+  }
+}
+
+.button--white {
+  color: get-color('white');
+
+  border-color: get-color('white');
+
+  // &::after {
+  //   border-bottom: 10px solid #fff;
+  // }
+}
+
+.button--black {
+  // &::after {
+  //   border-bottom: 10px solid #000;
+  // }
+}
+
+.button--border {
+  color: #000;
+  font-weight: bold;
+
+  background-color: #efefef;
+  border: 2px solid #000;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+
+    background-color: #000;
+  }
+}
+
+.button-wrapp {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.wpcf7-submit,
+.wpcf7-submit[type=submit] {
+  margin-top: 15px;
+  padding: 8px 15px !important;
+
+  color: get-color('white');
+
+  background-color: get-color('primary');
+  border-color: get-color('primary');
+
+  &:hover,
+  &:focus {
+    color: get-color('black');
+
+    background-color: transparent;
+    border-color: get-color('primary');
+  }
+}

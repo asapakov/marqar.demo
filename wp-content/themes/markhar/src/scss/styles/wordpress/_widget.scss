@@ -1,0 +1,8 @@
+.widget li a {
+  color: #000;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}

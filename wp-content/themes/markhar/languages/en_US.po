@@ -1,0 +1,633 @@
+# Copyright (C) 2020 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
+"POT-Creation-Date: 2021-01-29 14:58+0600\n"
+"PO-Revision-Date: 2021-01-29 15:20+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Domain: _s\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/redux\n"
+"X-Poedit-SearchPathExcluded-1: inc/tgm\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: src\n"
+"X-Poedit-SearchPathExcluded-4: *.js\n"
+"X-Poedit-SearchPathExcluded-5: old\n"
+
+#: footer.php:55
+msgid "Создание сайтов"
+msgstr "Website development"
+
+#: header.php:114
+msgid "Показать поиск"
+msgstr "Show search"
+
+#: header.php:126
+msgid "Меню"
+msgstr "Menu"
+
+#: header.php:143
+msgid "Меню для текущего языка не создано."
+msgstr "No menu has been created for the current language."
+
+#: header.php:148
+msgid "Заказать звонок"
+msgstr "Request a call"
+
+#: inc/plugins/woocommerce/hooks/archive-product.php:88
+msgid "Информация на сайте не является публичной офертой."
+msgstr "The information on the site is not a public offer."
+
+#: inc/plugins/woocommerce/hooks/archive-product.php:89
+msgid ""
+"Обращаем ваше внимание на то, что данный интернет-сайт, а также вся "
+"информация о товарах и ценах, предоставленная на нём, носит исключительно "
+"информационный характер и ни при каких условиях не является публичной "
+"офертой."
+msgstr ""
+"We draw your attention to the fact that this website, as well as all "
+"information about goods and prices provided on it, is for informational "
+"purposes only and under no circumstances is a public offer."
+
+#: inc/plugins/woocommerce/hooks/archive-product.php:90
+msgid ""
+"Для получения подробной информации о наличии и стоимости указанных товаров и "
+"(или) услуг, пожалуйста, обращайтесь по телефону."
+msgstr ""
+"For detailed information on the availability and cost of the specified goods "
+"and (or) services, please contact us by phone."
+
+#: inc/plugins/woocommerce/template/template-cart.php:65
+msgid "Посмотреть корзину"
+msgstr "Vew shopping cart"
+
+#: inc/plugins/woocommerce/template/template-cart.php:73
+#, php-format
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/settings/classes/class-feature-widget.php:20 inc/settings/setup.php:233
+msgid "Контакты"
+msgstr "Contacts"
+
+#: inc/settings/classes/class-feature-widget.php:21
+msgid "Картинка, заголовок, описание"
+msgstr "Picture, title, description"
+
+#: inc/settings/classes/class-feature-widget.php:41
+msgid "Нет заголовка"
+msgstr "No title"
+
+#: inc/settings/classes/class-feature-widget.php:58
+msgid "Миниатюра"
+msgstr "Thumbnail"
+
+#: inc/settings/classes/class-feature-widget.php:97
+msgid "Заголовок:"
+msgstr "Title:"
+
+#: inc/settings/classes/class-feature-widget.php:98
+msgid "Заголовок"
+msgstr "Tilte"
+
+#: inc/settings/classes/class-feature-widget.php:107
+msgid "Изображение векторное:"
+msgstr "Vector image:"
+
+#: inc/settings/classes/class-feature-widget.php:108
+msgid "SVG разметка"
+msgstr "SVG markup"
+
+#: inc/settings/classes/class-feature-widget.php:111
+msgid "Изображение растовое:"
+msgstr "Image raster:"
+
+#: inc/settings/classes/class-feature-widget.php:113
+msgid "Загрузить изображение"
+msgstr "Upload image"
+
+#: inc/settings/classes/class-feature-widget.php:123
+msgid "Телефон:"
+msgstr "Telephone:"
+
+#: inc/settings/classes/class-feature-widget.php:124
+#: inc/settings/classes/class-feature-widget.php:125
+msgid "Введите телефон"
+msgstr "Enter phone"
+
+#: inc/settings/classes/class-feature-widget.php:129
+msgid "Email:"
+msgstr "Email:"
+
+#: inc/settings/classes/class-feature-widget.php:130
+msgid "Введите email"
+msgstr "Enter your email"
+
+#: inc/settings/classes/class_walker_nav_menu.php:57
+msgid "Развернуть/Свернуть"
+msgstr "Expand/Collapse"
+
+#: inc/settings/posttype/brand-product.php:9
+#: inc/settings/posttype/brand-product.php:10
+msgctxt "Производители"
+msgid "Производители"
+msgstr "Manufacturers"
+
+#: inc/settings/posttype/brand-product.php:11
+msgid "Производители"
+msgstr "Manufacturers"
+
+#: inc/settings/posttype/brand-product.php:12
+msgid "Все"
+msgstr "All"
+
+#: inc/settings/posttype/brand-product.php:13
+msgid "Родительский производитель"
+msgstr "Parent producer"
+
+#: inc/settings/posttype/brand-product.php:14
+msgid "Родительский производитель:"
+msgstr "Parent manufacturer:"
+
+#: inc/settings/posttype/brand-product.php:15
+msgid "New Item Name"
+msgstr ""
+
+#: inc/settings/posttype/brand-product.php:16
+msgid "Добавить производителя"
+msgstr "Add manufacturer"
+
+#: inc/settings/posttype/brand-product.php:17
+msgid "Редактировать производителя"
+msgstr "Edit manufacturer"
+
+#: inc/settings/posttype/brand-product.php:18
+msgid "Update Item"
+msgstr ""
+
+#: inc/settings/posttype/brand-product.php:19
+msgid "Посмотреть производителя"
+msgstr "View manufacturer"
+
+#: inc/settings/posttype/brand-product.php:20
+msgid "Separate items with commas"
+msgstr ""
+
+#: inc/settings/posttype/brand-product.php:21
+msgid "Add or remove items"
+msgstr ""
+
+#: inc/settings/posttype/brand-product.php:22
+msgid "Choose from the most used"
+msgstr ""
+
+#: inc/settings/posttype/brand-product.php:23
+msgid "Popular Items"
+msgstr ""
+
+#: inc/settings/posttype/brand-product.php:24
+msgid "Search Items"
+msgstr ""
+
+#: inc/settings/posttype/brand-product.php:25
+msgid "Производителей нет"
+msgstr "No manufacturers"
+
+#: inc/settings/posttype/brand-product.php:26
+msgid "No items"
+msgstr ""
+
+#: inc/settings/posttype/brand-product.php:27
+msgid "Items list"
+msgstr ""
+
+#: inc/settings/posttype/brand-product.php:28
+msgid "Items list navigation"
+msgstr ""
+
+#: inc/settings/setup.php:62
+msgid "Main Menu"
+msgstr "Main Menu"
+
+#: inc/settings/setup.php:194
+msgid "Выбор языка"
+msgstr "Language selection"
+
+#: inc/settings/setup.php:196
+msgid ""
+"Установите плагин Polylang и вставьте в данную область его виджет Language "
+"switcher"
+msgstr ""
+"Install the Polylang plugin and insert its Language switcher widget into "
+"this area"
+
+#: inc/settings/setup.php:207
+msgid "Форма авторизации"
+msgstr "Authorization form"
+
+#: inc/settings/setup.php:209
+msgid ""
+"Добавить виджет Текст или HTML и задайте ему данный шорткод "
+"[__theme_wc_login_form]."
+msgstr ""
+"Add Text or HTML widget and give it the given shortcode [__theme_wc_login_form]."
+
+#: inc/settings/setup.php:220
+msgid "Корзина товара"
+msgstr "Shopping cart"
+
+#: inc/settings/setup.php:222
+msgid ""
+"Добавить виджет Текст или HTML и задайте ему данный шорткод [__theme_wc_cart]."
+msgstr "Add Text or HTML widget and give it the given shortcode [__theme_wc_cart]."
+
+#: inc/settings/setup.php:235
+msgid "Добавить виджет Контакты."
+msgstr "Add Contacts widget."
+
+#: inc/settings/setup.php:246 inc/settings/setup.php:258
+msgid "Сайтбар"
+msgstr "Saitbar"
+
+#: inc/settings/setup.php:248
+msgid "Добавить виджет здесь."
+msgstr "Add widget here."
+
+#: inc/settings/setup.php:260
+msgid "Сайтбар на внутренних страницах сайта."
+msgstr "Sitebar on the internal pages of the site."
+
+#: inc/settings/setup.php:270
+msgid "Сайтбар магазина"
+msgstr "Store sitebar"
+
+#: inc/settings/setup.php:272
+msgid "Сайтбар на внутренних страницах магазина."
+msgstr "Sitebar on the internal pages of the store."
+
+#: single.php:32
+msgid "< Назад"
+msgstr "<Back"
+
+#: single.php:33
+msgid "Вперед >"
+msgstr "Forward>"
+
+#: template-parts/content/content-404.php:17
+msgid ""
+"Похоже, в этом месте ничего не было найдено. Может быть, попробуйте одну из "
+"ссылок ниже или поиск?"
+msgstr ""
+"It looks like nothing was found in this location. Maybe try one of the links "
+"below or search?"
+
+#: template-parts/content/content-404.php:26
+msgid "Часто используемые разделы"
+msgstr "Frequently used sections"
+
+#: template-parts/content/content-404.php:44
+#, php-format
+msgid "Попробуйте поискать в ежемесячных архивах. %1$s"
+msgstr "Try searching the monthly archives. %1$s"
+
+#: template-parts/content/content-archive.php:32
+#: template-parts/content/content-page.php:31
+#: template-parts/content/content-search.php:27
+#: template-parts/content/content.php:30
+#, php-format
+msgid "Читать далее<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Read more<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content/content-archive.php:45
+#: template-parts/content/content-page.php:44
+#: template-parts/content/content-search.php:40
+#: template-parts/content/content.php:43
+msgid "Страницы:"
+msgstr "Pages:"
+
+#: template-parts/content/content-none.php:16
+msgid "Ничего не найдено"
+msgstr "Nothing found"
+
+#: template-parts/content/content-none.php:26
+#, php-format
+msgid ""
+"Готовы опубликовать свою первую запись? <a href=\"%1$s\">Опубликовать</a>."
+msgstr "Ready to post your first post?<a href=\"%1$s\">Get started here</a>."
+
+#: template-parts/content/content-none.php:39
+msgid "Извините, но ничего не соответствует вашим условиям поиска."
+msgstr "Sorry, but nothing matched your search."
+
+#: template-parts/content/content-none.php:40
+msgid "Пожалуйста, попытайтесь снова с другими ключевыми словами."
+msgstr "Please try again with different keywords."
+
+#: template-parts/content/content-none.php:47
+msgid "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск поможет."
+msgstr ""
+"We cannot seem to find what you are looking for. Perhaps a search will help."
+
+#: template-parts/home/about.php:35 template-parts/home/blog.php:70
+#: template-parts/home/slideshow.php:51
+msgid "Читать далее"
+msgstr "Read more"
+
+#: template-parts/home/blog.php:36
+msgid "Листать влево"
+msgstr "Scroll left"
+
+#: template-parts/home/blog.php:41
+msgid "Листать вправо"
+msgstr "Scroll right"
+
+#: template-parts/home/product.php:50
+msgid "Популярные товары"
+msgstr "Popular goods"
+
+#: template-parts/home/product.php:52
+msgid "Качественная продукция по доступной цене"
+msgstr "Quality products at an affordable price"
+
+#: template-parts/home/product.php:99
+msgid "уточняйте цену по телефону"
+msgstr "check the price by phone"
+
+#: template-parts/home/product.php:109
+msgid "Все товары"
+msgstr "All goods"
+
+#: woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:92
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/global/form-login.php:34 woocommerce/global/form-login.php:35
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:38 woocommerce/global/form-login.php:39
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:47
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:51
+msgid "Login"
+msgstr ""
+
+#: woocommerce/global/form-login.php:54
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:30
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:30
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:34
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:46
+msgid "Производитель: "
+msgstr "Manufacturer: "
+
+#: woocommerce/single-product/meta.php:50
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:57
+#: woocommerce/single-product/meta.php:59
+msgid "Наличие на складе:"
+msgstr "Stock availability:"
+
+#: woocommerce/single-product/meta.php:57
+msgid "ДА"
+msgstr "YES"
+
+#: woocommerce/single-product/meta.php:59
+msgid "НЕТ"
+msgstr "NO"
+
+#: woocommerce/single-product/price.php:28
+msgid "Уточняйте цену по телефону"
+msgstr "Сheck the price by phone"
+
+#~ msgid "Корзина пуста"
+#~ msgstr "No products in the cart"
+
+#~ msgid "Краткое описание популярных товаров"
+#~ msgstr "Brief description of popular products"
+
+#, fuzzy
+#~| msgid "Создание сайтов"
+#~ msgid "Описание секции"
+#~ msgstr "Website development"
+
+#, fuzzy
+#~| msgid "Создание сайтов"
+#~ msgid "Название подсекции"
+#~ msgstr "Website development"
+
+#, fuzzy
+#~| msgid "Контакты"
+#~ msgid "Контакты в шапке"
+#~ msgstr "Contacts"
+
+#~ msgid "Сожалеем!<br> Эта страница не может быть найдена."
+#~ msgstr "Sorry! This page could not be found."
+
+#~ msgid "Комментарии"
+#~ msgstr "Comments are closed."
+
+#~ msgid "Комментарии закрыты."
+#~ msgstr "Comments are closed."
+
+#~ msgid "Закрыть окно"
+#~ msgstr "Close window"
+
+#~ msgid "Слайдшоу"
+#~ msgstr "Slideshow"
+
+#~ msgid "Вход для пользователей"
+#~ msgstr "User Login"
+
+#~ msgid "Логин"
+#~ msgstr "Login"
+
+#~ msgid "Пароль"
+#~ msgstr "Password"
+
+#~ msgid "Регистрация"
+#~ msgstr "Registration"
+
+#~ msgid "Войти"
+#~ msgstr "Sign in"
+
+#~ msgid "Забыли пароль?"
+#~ msgstr "Forgot your password?"
+
+#~ msgid "Подробнее"
+#~ msgstr "More"
+
+#~ msgid "Секция не настроена"
+#~ msgstr "Section not configured"
+
+#~ msgid "Перейти"
+#~ msgstr "More"
+
+#~ msgid "Бесплатная консультация"
+#~ msgstr "Free consultation"
+
+#~ msgid "Партнеры"
+#~ msgstr "Partners"
+
+#~ msgid "Перейти к содержанию"
+#~ msgstr "Skip to content"
+
+#~ msgid "Поиск: "
+#~ msgstr "Search: "
+
+#~ msgid "Поиск"
+#~ msgstr "Search"
+
+#~ msgid "Найти"
+#~ msgstr "Search"
+
+#~ msgid "Введите комментарий"
+#~ msgstr "Enter comment"
+
+#~ msgid "Ваш комментарий находится на модерировании."
+#~ msgstr "Your comment is being moderated."
+
+# Copyright (C) 2020 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+#~| msgid ""
+#~ msgctxt "list item separator"
+#~ msgid ""
+#~ msgstr ""
+#~ "Project-Id-Version: _s 1.0.0\n"
+#~ "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
+#~ "Language-Team: \n"
+#~ "MIME-Version: 1.0\n"
+#~ "Content-Type: text/plain; charset=UTF-8\n"
+#~ "Content-Transfer-Encoding: 8bit\n"
+#~ "POT-Creation-Date: 2020-06-11 10:23+0600\n"
+#~ "PO-Revision-Date: 2020-09-03 23:27+0600\n"
+#~ "X-Generator: Poedit 2.2.4\n"
+#~ "X-Domain: _s\n"
+#~ "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+#~ "_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+#~ "esc_html_e;esc_html_x:1,2c\n"
+#~ "X-Poedit-Basepath: ..\n"
+#~ "Last-Translator: \n"
+#~ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#~ "Language: en\n"
+#~ "X-Poedit-SearchPath-0: .\n"
+#~ "X-Poedit-SearchPathExcluded-0: inc/redux\n"
+#~ "X-Poedit-SearchPathExcluded-1: inc/tgm\n"
+#~ "X-Poedit-SearchPathExcluded-2: node_modules\n"
+#~ "X-Poedit-SearchPathExcluded-3: src\n"
+#~ "X-Poedit-SearchPathExcluded-4: *.js\n"
+
+#, fuzzy, php-format
+#~| msgid "Тэги %1$s"
+#~ msgid "Тэги: %1$s"
+#~ msgstr "Tags %1$s"
+
+#, fuzzy, php-format
+#~| msgid "Оставить комментарий<span class=\"screen-reader-text\"> к %s</span>"
+#~ msgid "Комментарии<span class=\"screen-reader-text\"> к %s</span>"
+#~ msgstr "Leave a comment<span class=\"screen-reader-text\"> к %s</span>"
+
+#, fuzzy, php-format
+#~| msgid "Оставить комментарий<span class=\"screen-reader-text\"> к %s</span>"
+#~ msgid "Комментарии<span class=\"screen-reader-text\"> к %s</span> (1)"
+#~ msgstr "Leave a comment<span class=\"screen-reader-text\"> к %s</span>"
+
+#, fuzzy, php-format
+#~| msgid "Оставить комментарий<span class=\"screen-reader-text\"> к %s</span>"
+#~ msgid "Комментарии<span class=\"screen-reader-text\"> к %s</span> (%s)"
+#~ msgstr "Leave a comment<span class=\"screen-reader-text\"> к %s</span>"
+
+#, php-format
+#~ msgid "Редактировать <span class=\"screen-reader-text\">%s</span>"
+#~ msgstr "Edit <span class=\"screen-reader-text\">%s</span>"
+
+#, php-format
+#~ msgid "Результаты поиска для: %s"
+#~ msgstr "Search Results for: %s"
+
+#~ msgid "Доступа нет"
+#~ msgstr "No access"
+
+#~ msgid "Сожалеем, но у вас нет доступа для данного раздела."
+#~ msgstr "We are sorry, but you do not have access to this section."
+
+#~ msgid "Пожалуйста напишите нам, возможно мы сможем вам помочь."
+#~ msgstr "Please write to us, maybe we can help you."
+
+#, php-format
+#~ msgid "Читать<span class=\"screen-reader-text\"> \"%s\"</span>"
+#~ msgstr "Read <span class=\"screen-reader-text\">%s</span>"
+
+#~ msgid "Страница"
+#~ msgstr "Pages"
+
+#, fuzzy
+#~| msgid "Популярные категории"
+#~ msgid "Выберите категорию"
+#~ msgstr "Popular categories"
+
+#, php-format
+#~ msgid "Комментарий &ldquo;%1$s&rdquo;"
+#~ msgstr "Comment &ldquo;%1$s&rdquo;"
+
+#, php-format
+#~ msgctxt "post date"
+#~ msgid "Опубликовано %s"
+#~ msgstr "Published by %s"
+
+#, php-format
+#~ msgctxt "post author"
+#~ msgid "от %s"
+#~ msgstr "on %s"
+
+#, php-format
+#~ msgid "Опубликовано в %1$s"
+#~ msgstr "Posted in %1$s"
+
+#~ msgid "Предыдущие:"
+#~ msgstr "Previous:"
+
+#~ msgid "Следующие:"
+#~ msgstr "The following:"

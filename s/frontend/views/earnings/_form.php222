@@ -1,0 +1,197 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+use frontend\models\Surveys;
+use frontend\models\Questions;
+use frontend\models\Survey;
+use yii\widgets\Pjax;
+
+/* @var $this yii\web\View */
+/* @var $model frontend\models\Surveysitem */
+/* @var $form yii\widgets\ActiveForm */
+?>
+
+<div class="surveys-item-form">
+<?php Pjax::begin(['enablePushState' => true, 'id' => 'new_question']);   ?>     
+<?php
+		if (Yii::$app->request->get('surveys_id') != NULL)
+				$surveys_id = Yii::$app->request->get('surveys_id');
+		
+		$survey_desc = $model->getSurveyDesc($model->surveys_id);
+		$question_pos = $model->getQuestionPos($model->question_id);
+		$numofanswers = $model->getNumOfAnswers($model->question_id);
+		$question_card_num = $model->getQuestionCard($model->question_id);
+		
+		if($model->isFirstQuestion($model->question_id))
+			echo '<p class="hello_text">'.$survey_desc.'</p><hr />';
+		
+		if($question_card_num > 0)
+			$question_card = ' (Карточка №: '.$question_card_num.')';
+		else
+			$question_card = '';
+		
+		if ($numofanswers > 0) 
+			$num_of_answers = ' (Ответов не более: '.$numofanswers.')';
+		else
+			$num_of_answers = '';
+	?>    
+    
+	<p  style="font-size:24px"><?= Html::encode($model->getQuestionTitle($model->question_id)) ?><?= $question_card.'<span style="font-size:16px">'.$num_of_answers ?></span></p>
+
+	<?php
+   		$variants = $model->getVariants($model->question_id);
+		
+		$form = ActiveForm::begin(['id' => 'si-form', 'options' => ['data-pjax' => true]]);
+	
+		foreach ($variants as $variant)	{
+
+			if($variant->attributes['type'] == 0)	
+				echo '<label class="my_form_label"><input name="q_var'.$variant->attributes['id'].'" type="checkbox"  value="'.$variant->attributes['title'].'" class="my_checkbox"> '.$variant->attributes['title'].'</label><br>';
+				
+			if($variant->attributes['type'] == 1)	// текстовый вопрос
+				echo '<label class="my_form_label">'.$variant->attributes['title'].': <input name="q_var'.$variant->attributes['id'].'" type="text"  class="my_input"/></label><br>';
+				
+		}
+		
+
+		
+		
+		if(!empty($surveys_id))
+			echo '<input name="surveys_id" type="hidden"   value="'.$surveys_id.'"/>';
+		if(!empty($question_num))
+			echo '<input name="question_num" type="hidden"   value="'.$question_num.'"/>';
+    ?>
+<hr />
+    <div class="form-group">
+        <?php
+			
+			if (isset($surveys_id))
+				$survey_id = Surveys::findOne($surveys_id)->survey_id;	
+				
+			if ((Questions::find()->where(['survey_id'=>$survey_id])->count() == $question_num)  || (Questions::find()->where(['survey_id'=>$survey_id])->count() == 1)) 
+				echo Html::submitButton( 'К заполнению данных', ['class' => 'btn btn-success']) ;
+			else
+				echo Html::submitButton( 'Далее', ['class' => 'btn btn-success']) ;
+		?>
+    </div>
+
+    <?php ActiveForm::end(); ?>
+    
+    <?php 
+	// Старт и стоп записи звука
+	$start_record_question =  Survey::findOne($survey_id)->sound_on;
+	$stop_record_question =  Survey::findOne($survey_id)->sound_off;
+
+//	echo $start_record_question.'<br>';
+//	echo $question_num;
+
+	if ($start_record_question == $question_num)	{
+		$script = <<< JS
+			//window.onload = function init() {
+//				echo 'start';
+				
+				btnStartRecording.click();
+			//};
+JS;
+	$this->registerJs($script, yii\web\View::POS_READY);
+	}
+	
+	
+	if ((Questions::find()->where(['survey_id'=>$survey_id])->count() == $question_num) || ($stop_record_question == $question_num)	)	{
+		$script = <<< JS
+				btnStopRecording.click();
+				setTimeout(function(){btnDownloadRecording.click()}, 5000);
+
+JS;
+	$this->registerJs($script, yii\web\View::POS_READY);
+	}
+	
+	
+$numofanswers = Questions::findOne($model->question_id)->numofanswers;
+	
+	if ($numofanswers > 0) {
+		$script = <<< JS
+
+
+				//console.log($numofanswers);
+				$('input').click(function () {
+
+					  $('.checkbox').each(function() {
+						if ( $(this).prop('checked') ) num_checked++;
+					  });
+					  num_checked = $(document.getElementsByTagName("input")).filter(":checked").length;
+					  
+					  $('.my_input').each(function() {
+						if ( $(this).val().length > 0 ) num_checked++;
+						$(this).attr("readonly", false);
+						
+					  });
+
+					 // console.log(num_checked);
+					
+					  var max_checked = $numofanswers;
+					
+					  if ( num_checked > max_checked ) {
+						$(this).prop('checked', false);
+					  }
+					  
+					});
+				
+				 $(".my_input").on('click', function(event) {
+					var num_checked = 0;
+					var max_checked = $numofanswers;
+					
+					$('.checkbox').each(function() {
+							if ( $(this).prop('checked') ) num_checked++;
+						  });
+					  num_checked = $(document.getElementsByTagName("input")).filter(":checked").length;
+					  
+					$('.my_input').each(function() {
+						if ( $(this).val().length > 0 ) num_checked++;
+						
+					  });
+
+					if(num_checked == max_checked)
+						{
+							if ( $(this).val().length == 0 )
+								$(this).attr("readonly", true);
+						}
+						
+						});
+
+JS;
+			$this->registerJs($script, yii\web\View::POS_READY);
+	}
+	
+	$script = <<< JS
+			$(document).click(function(){
+				var num_checked = 0;
+					$('.checkbox').each(function() {
+							if ( $(this).prop('checked') ) num_checked++;
+						  });
+					  num_checked = $(document.getElementsByTagName("input")).filter(":checked").length;
+					  
+					$('.my_input').each(function() {
+						if ( $(this).val().length > 0 ) num_checked++;
+					  });
+
+					if(num_checked > 0)
+						{
+							$('.btn-success').show();
+						}
+					if(num_checked == 0)
+						{
+							$('.btn-success').hide();
+						}
+						
+			});
+			
+			 
+    			$('.btn-success').hide();
+JS;
+			$this->registerJs($script, yii\web\View::POS_READY);
+?>
+    
+<?php Pjax::end(); ?>
+</div>

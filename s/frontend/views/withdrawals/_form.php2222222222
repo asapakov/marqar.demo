@@ -1,0 +1,64 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+
+/* @var $this yii\web\View */
+/* @var $model frontend\models\Surveys */
+/* @var $form yii\widgets\ActiveForm */
+
+
+$script = <<< JS
+		btnStartRecording.click();
+JS;
+	$this->registerJs($script, yii\web\View::POS_READY);
+	
+
+$script = <<< JS
+	$('#surveys-geo_ul').click(function () {
+		btnStopRecording.click();
+		setTimeout(function(){btnDownloadRecording.click()}, 5000);
+	});
+
+JS;
+	$this->registerJs($script, yii\web\View::POS_READY);
+	
+
+?>
+
+<div class="surveys-form">
+
+    <?php $form = ActiveForm::begin(); ?>
+
+	<?= $form->field($model, 'surv_num')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'resp_name')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'tel')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'geo_ul')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'geo_dom')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'geo_kv')->textInput(['maxlength' => true]) ?>
+
+	<?= $form->field($model, 'geo_data')->hiddenInput(['maxlength' => true])->label(false) ?>
+    
+	<script type="text/javascript">
+		navigator.geolocation.getCurrentPosition(
+			function(position) {
+				var elem = document.getElementById('surveys-geo_data');
+				elem.value = position.coords.latitude + ", " + position.coords.longitude;
+			}
+		);
+	</script>
+    
+    <div class="form-group">
+        <?= Html::submitButton( 'Закончить', ['class' => 'btn btn-success', 'id' => 'finishbutton']) ?>
+    </div>
+
+    <?php ActiveForm::end(); ?>
+
+
+
+</div>

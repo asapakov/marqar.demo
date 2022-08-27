@@ -1,0 +1,26 @@
+.page-archive {
+  background: linear-gradient(to bottom, transparent 80%, #f5f5f5);
+}
+
+.page-archive__container {
+  @include flex-wrap;
+  justify-content: space-between;
+}
+
+.page-archive__content {
+  @include size(8);
+  margin-top: -1px;
+}
+
+.page-archive__content-wrapp {
+  @include flex-wrap;
+}
+
+.page-archive__sidebar {
+  @include size(4);
+  padding: 80px 30px;
+
+  color: get-color('white');
+
+  background: get-color('primary');
+}

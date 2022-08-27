@@ -1,0 +1,183 @@
+.page-about {
+  padding: 80px 0;
+}
+
+.page-about__container {
+
+}
+
+.page-about__header {
+
+}
+
+.page-about__arrow {
+  box-sizing: content-box;
+  width: 50px;
+  height: 125px;
+  padding: 0 15px;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  &--left {
+
+  }
+
+  &--right {
+
+  }
+}
+
+.page-about__list-toggle {
+  @include list-reset;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.page-about__item-toggle {
+
+}
+
+.page-about--nojs .page-about__item-toggle {
+  display: none;
+}
+
+.page-about__toggle {
+  display: flex;
+  align-items: center;
+  margin: 0 1px;
+  padding: 30px 30px 30px 45px;
+
+  color: #8e8e8e;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  border: 2px solid get-color('white-dark');
+  outline: none;
+
+  cursor: pointer;
+
+  transition: $transition;
+
+  &:hover,
+  &:focus,
+  &--show {
+    color: get-color('white');
+
+    background-color: get-color('primary');
+    border-color: #ac7d00;
+    box-shadow: 0 0 20px 0 #dcab28;
+  }
+}
+
+.page-about__toggle-icon {
+  margin-right: 25px;
+}
+
+.page-about__toggle-icon svg {
+
+}
+
+.page-about__toggle:hover,
+.page-about__toggle:focus,
+.page-about__toggle--show .page-about__toggle-icon svg {
+  fill: get-color('white');
+}
+
+.page-about__toggle-title {
+
+}
+
+.page-about__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.page-about__img {
+  width: 50%;
+  padding-right: 50px;
+}
+
+.page-about__img img {
+  width: 100%;
+}
+
+.page-about__info {
+  width: 50%;
+}
+
+.page-about__list {
+  @include list-reset;
+}
+
+.page-about__item {
+  display: none;
+
+  &--show {
+    display: block;
+  }
+}
+
+.page-about--nojs .page-about__item {
+  display: none;
+
+  &:first-child {
+    display: block;
+  }
+}
+
+.page-about__subtitle {
+  margin: 0 0 30px;
+
+  color: get-color('black');
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.page-about__desc {
+  margin-bottom: 60px;
+
+  color: get-color('text-light');
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.page-about__more {
+
+}
+
+.page-about .slick-list {
+  margin: 0 2px;
+  padding: 50px 30px;
+}
+
+.page-about .slick-track {
+  display: flex;
+}
+
+@include to(1090px) {
+
+}
+
+@include to(800px) {
+  .page-about__toggle {
+    margin: 0 auto;
+  }
+
+  .page-about__img,
+  .page-about__info {
+    width: 100%;
+    margin: 0;
+  }
+}

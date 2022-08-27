@@ -1,0 +1,32 @@
+.login-nav {
+  display: flex;
+}
+
+.login-nav__link {
+  display: block;
+  margin-right: 10px;
+
+  line-height: 0;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.login-nav__icon {
+  transition: $transition;
+
+  fill: get-color('white');
+}
+
+.login-nav__link:hover .login-nav__icon,
+.login-nav__link:focus .login-nav__icon {
+  fill: get-color('primary');
+}
+
+@include to(800px) {
+  .login-nav__icon {
+    width: 25px;
+    height: 25px;
+  }
+}

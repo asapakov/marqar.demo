@@ -1,0 +1,291 @@
+.page-footer {
+  color: get-color('white');
+
+  background-color: get-color('secondary');
+}
+
+.page-footer__top {
+  padding: 70px 0;
+}
+
+.page-footer__top-container {
+
+}
+
+.page-footer__list {
+  @include flex-wrap;
+  justify-content: space-between;
+}
+
+.page-footer__list--1 {
+
+}
+
+.page-footer__list--2 {
+
+}
+
+.page-footer__list--3 {
+
+}
+
+.page-footer__list--4 {
+
+}
+
+.page-footer__item {
+  // @include size(3);
+}
+
+.page-footer__item--1 {
+  width: 30%;
+}
+
+.page-footer__item--2 {
+  width: 13%;
+  padding-top: 30px;
+}
+
+.page-footer__item--3 {
+  width: 20%;
+  padding-top: 30px;
+}
+
+.page-footer__item--4 {
+  width: 20%;
+  padding-top: 30px;
+}
+
+.page-footer .widget {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.page-footer .widget-title {
+  margin: 0 0 30px;
+
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+.page-footer .widget_nav_menu ul {
+  @include list-reset;
+}
+
+.page-footer .widget_nav_menu li {
+  margin-bottom: 20px;
+}
+
+.page-footer .widget_nav_menu li a {
+  color: get-color('white');
+  text-decoration: none;
+
+  transition: $transition;
+
+  &:hover,
+  &:focus {
+    color: rgba(get-color('white'), 0.7);
+    text-decoration: underline;
+  }
+}
+
+.page-footer .widget_nav_menu .sub-menu {
+  display: none;
+}
+
+.page-footer .widget_text a {
+  color: get-color('white');
+  font-weight: bold;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.page-footer .widget_text p {
+  margin: 0;
+
+  & + p {
+    margin-top: 30px;
+  }
+}
+
+.page-footer__item--1 .widget {
+  line-height: 28px;
+}
+
+.page-footer__item--1 .widget_media_image {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.page-footer__item--1 .widget_text {
+  margin-bottom: 30px;
+}
+
+.page-footer__item--1 .widget_nav_menu ul {
+  @include flex-wrap;
+  align-items: center;
+}
+
+.page-footer__item--1 .widget_nav_menu li {
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.page-footer__item--1 .widget_nav_menu a {
+  &:hover svg,
+  &:focus svg {
+    opacity: 0.7;
+  }
+}
+
+.page-footer__item--1 .widget_nav_menu svg {
+  transition: $transition;
+}
+
+.page-footer__item--3 .widget_nav_menu li {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.page-footer__item--4 .widget_custom_html p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-footer__item--4 .widget_custom_html svg {
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+.page-footer__item--4 .widget_custom_html span {
+  width: 80%;
+}
+
+.page-footer__item--4 .widget_custom_html a {
+  display: block;
+}
+
+.page-footer__item--4 .widget_custom_html br {
+  display: block;
+  width: 100%;
+  height: 0;
+
+  content: '';
+}
+
+.page-footer__bottom {
+  padding: 20px 0;
+
+  color: rgba(get-color('white'), 0.7);
+  font-size: 16px;
+  line-height: 24px;
+
+  background-color: #21223b;
+}
+
+.page-footer__bottom-container {
+  @include flex-wrap;
+  justify-content: space-between;
+
+}
+
+.page-footer__copyright {
+  font-weight: normal;
+}
+
+.page-footer__dev {
+  position: relative;
+
+  display: inline-block;
+  padding-right: 64px;
+
+  color: rgba(get-color('white'), 0.7);
+  text-decoration: none;
+
+  &::after {
+    position: absolute;
+    top: 7px;
+    right: 0;
+
+    width: 54px;
+    height: 9px;
+
+    background: url('../images/tck.jpg') no-repeat;
+
+    content: '';
+  }
+}
+
+.page-footer svg {
+  padding-top: 2px;
+
+  fill: get-color('primary');
+}
+
+@include to(1200px) {
+  .page-footer__top {
+    padding: 60px 0 40px;
+  }
+}
+
+@include to(1040px) {
+  .page-footer__item {
+    margin-top: 20px;
+  }
+
+  .page-footer__item--1 {
+    @include size(6);
+  }
+
+  .page-footer__item--2 {
+    @include size(6);
+  }
+
+  .page-footer__item--3 {
+    width: 100%;
+  }
+
+  .page-footer__item--4 {
+    margin-top: 30px;
+  }
+
+  .page-footer__item--3 .widget_nav_menu ul {
+    @include flex-wrap;
+  }
+
+  .page-footer__item--3 .widget_nav_menu li {
+    margin: 0 50px 0 0;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+
+@include to(600px) {
+  .page-footer {
+    background-size: 90%;
+  }
+
+  .page-footer__list {
+
+  }
+
+  .page-footer__item {
+    width: 100%;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

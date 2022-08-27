@@ -1,0 +1,95 @@
+.page-pagination {
+
+}
+
+.page-pagination.pagination {
+  padding: 60px;
+}
+
+.page-pagination.post-navigation {
+  margin-top: 100px;
+}
+
+.page-pagination__links {
+  @include flex-wrap;
+}
+
+.page-pagination.post-navigation .page-pagination__links {
+  justify-content: space-between;
+}
+
+.page-pagination__links .nav-previous,
+.page-pagination__links .nav-next {
+  width: 50%;
+}
+
+.page-pagination__links .page-numbers {
+  margin: 0 7px 20px;
+  padding: 20px 25px;
+
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+
+  background-color: #000;
+
+  transition: $transition;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: rgba(#000, 0.8);
+  }
+}
+
+.page-pagination__links .nav-previous,
+.page-pagination__links .nav-next {
+  a {
+    display: flex;
+    align-items: center;
+
+    color: #000;
+    font-size: 18px;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+.page-pagination__links .nav-previous svg {
+  margin-right: 10px;
+}
+
+.page-pagination__links .nav-next svg {
+  margin-left: 10px;
+}
+
+.page-pagination__links .prev,
+.page-pagination__links .next {
+  margin: 0;
+
+  background-color: transparent !important;
+
+  svg {
+    transition: $transition;
+  }
+
+  &:hover svg,
+  &:focus svg {
+    fill: rgba(#000, 0.7);
+  }
+}
+
+.page-pagination__links .current {
+  background-color: rgba(#000, 0.9);
+
+  &:hover,
+  &:focus {
+    background-color: rgba(#000, 0.9);
+  }
+}

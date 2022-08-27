@@ -1,0 +1,49 @@
+$theme-colors: (
+  'primary': #dcab28,
+  'secondary': #252443,
+  'black': #323232,
+  'white-dark': #f3f3f3,
+  'white': #fff,
+  'gray': #727272,
+  'line': #c1c1c1,
+  'text-light': #8e8e8e,
+);
+
+$grid-breakpoints: (
+  sm: $break_sm,
+  md: $break_md,
+  lg: $break_lg,
+  xl: $break_xl,
+);
+
+$spacer: 1rem;
+$spacers: (
+  1: ($spacer * 0.25),
+  2: ($spacer * 0.5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 2),
+  6: ($spacer * 3),
+);
+
+$font-family-secondary: 'Roboto', 'Arial', sans-serif;
+$font-family-primary: 'Roboto', 'Arial', sans-serif;
+
+$font-size-base: 1rem;
+
+$font-size-headings: (
+  // h1: $font-size-base * 3,
+  h1: 26px,
+  h2: 22px,
+  h3: 18px,
+  h4: 16px,
+  h5: 15px,
+  h6: 14px,
+);
+
+$border-radius: 1rem;
+$transition: 0.3s ease;
+$box-shadow: 0 0 0 #fff;
+
+$slick-font-path: "../libs/slick/";
+$slick-loader-path: "../libs/slick/";

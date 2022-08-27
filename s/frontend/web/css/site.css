@@ -1,0 +1,301 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -30px;
+    padding: 0 0;
+}
+
+.wrap > .container {
+    padding: 0px 15px 20px;
+}
+
+.surveys-item-create h1 {
+	font-size:24px;}
+
+.footer {
+    height: 30px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 5px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+	    background-image: url(../images/slide.jpg);
+		background-position: center;
+    width: auto;
+    height: auto;
+	    min-height: 318px;
+}
+
+.logo {
+
+
+	    background-image: url(../images/logo.png);
+    width: 199px;
+    height: 50px;
+	float: left;
+}
+
+.createdby {
+
+
+	    background-image: url(../images/logo_small.png);
+    width: 60px;
+    height: 14px;
+	float: right;
+}
+
+.prem {
+	background-image: url(../images/premium.png);
+    width: 360px;
+    height: 190px;
+	background-position: center;
+    background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.base {
+	background-image: url(../images/standart.png);
+    width: 360px;
+    height: 190px;
+	background-position: center;
+    background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.univ {
+	background-image: url(../images/universal.png);
+    width: 360px;
+    height: 190px;
+	background-position: center;
+    background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.tools {
+    margin: 15px 0px;
+    background-color: #e5f3ff;
+    border: #c5c5c5 solid 1px;
+    text-align: center;
+}
+
+
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.my_checkbox {
+	margin-top: 50px;
+}
+
+.my_checkbox {
+    margin: 20px!important;
+
+    transform: scale(3)!important;
+}
+
+.my_input {
+	background-color:#E4E4E4;
+	border: 2px solid #999;
+	font-size: 22px;
+	width:80%;
+}
+
+.my_form_label {
+    font-size:18px;
+	width: 100%;
+}
+
+.form-group > button.btn-success {
+	width: 80%;
+	margin: 50px 10%;
+	    height: 100px;
+    font-size: 18px;
+}
+
+.ankety {
+	background-color: crimson;
+   
+}
+
+.ankety a {
+	 color: #fff!important;
+}
+
+h1 {
+	font-size: 24px!important;
+}
+
+.navbar {
+	margin-bottom: 10px!important;
+}
+
+h1 {
+	margin-top: 10px!important;
+}
+
+.surveys-form input {
+	height: 45px;
+	font-size: 24px;
+}
+
+.survey-index .table td {
+	font-size: 20px;
+}
+
+.hello_text {
+	background-color: #ffdada;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+label {
+	font-weight:normal!important;
+}
+
+/* My CSS */
+
+.btn-info {background-color:#fa7b02; border-color:#fa7b02;}
+.btn-info:hover {background-color:#fde940;border-color:#fde940;}
+.btn-primary {background-color:#142271;}
+.btn-primary:hover {background-color:#fde940;border-color:#fde940;}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {background:#fa7b02;}
+.btn-info:active:hover, .btn-info.active:hover, .open > .dropdown-toggle.btn-info:hover, .btn-info:active:focus, .btn-info.active:focus, .open > .dropdown-toggle.btn-info:focus, .btn-info:active.focus, .btn-info.active.focus, .open > .dropdown-toggle.btn-info.focus {background-color:#fde940;border-color:red;}
+.btn-info:hover {background-color:#fde940;border-color:#fde940;}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {border-color: #fa7b02;}
+.pagination > li > a, .pagination > li > span {color:#212121;}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {background: #fa7b02; border:1px solid #fa7b02; color:#fff;}
+a:hover, a:focus {color:#212121; border-color: #fde940;}
+body {background-image:url(../images/back.jpg); background-size:cover; background-attachment:fixed; background-position:center;}
+nav.navbar {border-bottom: 2px solid #142271; background: rgba(7, 18, 38, 0.75); width: 100%; box-shadow: 0px 5px 7px 0px #393939; padding: 17px 0; position: fixed; z-index: 1; top: 0;}
+.wrap > .container {margin-top: 130px;}
+.logo {width: 230px; height: 55px; background-position: left center; background-repeat: no-repeat;}
+.side_menu {background: rgba(255, 255, 255, 0.75); border-radius: 5px; border: 1px solid #142271;}
+.content {background: rgba(255, 255, 255, 0.75); border-radius: 5px; border: 1px solid #142271; width: 73%; margin-left: 2%;}
+.nav > li > a:hover {color:#212121;}
+.navbar-default .navbar-nav > li > a {color:#cecece;}
+.navbar-default .navbar-nav > li > a:hover {color:#142271;}
+.form-group > button.btn-success {background-color:#142271; border-color:#142271;}
+.form-group > button.btn-success:hover {background-color:#fde940;border-color:#fde940;}
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus{background-color:#fde940;border-color:#fde940;}
+.breadcrumb {margin: 20px 0; }
+/* My CSS */
+.data_block{
+    background-color: rgb(226 226 226 / 80%);
+    display: flow-root;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #a3cbe4;
+    margin: 0 15px;
+}
+
+/*kbb 16.01.22 1:47*/
+.navbar-default .btn-link {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-default .btn-link:hover {
+    color: rgb(158, 158, 158);
+    font-size: 16px;
+    font-weight: bold;
+}

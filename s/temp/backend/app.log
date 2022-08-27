@@ -1,0 +1,361 @@
+2018-02-15 11:14:01 [188.0.141.39][1][80udfgsb44vdbnu20v0k1slrm2][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /home/ivts/domains/ivts.kz/public_html/backend/views/survey/index.php' in /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ivts/doma...', Array, Object(backend\controllers\SurveyController))
+#1 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\SurveyController))
+#2 /home/ivts/domains/ivts.kz/public_html/backend/controllers/SurveyController.php(50): yii\base\Controller->render('index', Array)
+#3 [internal function]: backend\controllers\SurveyController->actionIndex()
+#4 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('survey/index', Array)
+#8 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ivts/domains/ivts.kz/public_html/backend/web/index.php(17): yii\base\Application->run()
+#10 {main}
+2018-02-15 11:14:01 [188.0.141.39][1][80udfgsb44vdbnu20v0k1slrm2][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 188.0.141.39
+2018-02-15 11:14:01 [188.0.141.39][1][80udfgsb44vdbnu20v0k1slrm2][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 188.0.141.39
+2018-02-15 11:14:01 [188.0.141.39][1][80udfgsb44vdbnu20v0k1slrm2][info][application] $_COOKIE = [
+    'advanced-frontend' => '2ksdoj56b89gm87qaim07jl3r0'
+    '_csrf-frontend' => 'a7f2b1073d496058b85ee81191cf7cd7acafc5ed7e5954fe45210774bf8fd77ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"cKK1uU7QxIDznivrZXgE2xZrwCVa3fKv\";}'
+    '_csrf-backend' => '89aa5b911a81638d0a7664e231a8cbccd71aea6220b06bd1272a632e8d11d740a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"90Fescd137JpVi9dnW49SyphbuSFlyvM\";}'
+    'advanced-backend' => '80udfgsb44vdbnu20v0k1slrm2'
+    '_identity-backend' => 'cf5f4ec3f8b36512b91a5fc5fc43880a95f888ce432fe8f1b781fa7e0d4242a5a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zs0TYg7XC0N3ijztJkTCSBdn7HY7MrsY\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'ivts'
+    'HOME' => '/home/ivts'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'WoVreS0q8roMvt7qM945iwAAAHM'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_UNIQUE_ID' => 'WoVreS0q8roMvt7qM945iwAAAHM'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WoVreS0q8roMvt7qM945iwAAAHM'
+    'proxy-nokeepalive' => '1'
+    'HTTP_X_ACCEL_INTERNAL' => '/nginx_static_files'
+    'HTTP_HOST' => 'ivts.kz'
+    'HTTP_X_FORWARDED_FOR' => '188.0.141.39'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://ivts.kz/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=2ksdoj56b89gm87qaim07jl3r0; _csrf-frontend=a7f2b1073d496058b85ee81191cf7cd7acafc5ed7e5954fe45210774bf8fd77ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22cKK1uU7QxIDznivrZXgE2xZrwCVa3fKv%22%3B%7D; _csrf-backend=89aa5b911a81638d0a7664e231a8cbccd71aea6220b06bd1272a632e8d11d740a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2290Fescd137JpVi9dnW49SyphbuSFlyvM%22%3B%7D; advanced-backend=80udfgsb44vdbnu20v0k1slrm2; _identity-backend=cf5f4ec3f8b36512b91a5fc5fc43880a95f888ce432fe8f1b781fa7e0d4242a5a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zs0TYg7XC0N3ijztJkTCSBdn7HY7MrsY%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2'
+    'SERVER_NAME' => 'ivts.kz'
+    'SERVER_ADDR' => '185.120.77.52'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '188.0.141.39'
+    'DOCUMENT_ROOT' => '/home/ivts/domains/ivts.kz/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ivts/domains/ivts.kz/public_html'
+    'SERVER_ADMIN' => 'webmaster@ivts.kz'
+    'SCRIPT_FILENAME' => '/home/ivts/domains/ivts.kz/public_html/backend/web/index.php'
+    'REMOTE_PORT' => '39422'
+    'REDIRECT_URL' => '/backend/web//survey/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/survey/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518693241.7271
+    'REQUEST_TIME' => 1518693241
+]
+2018-02-15 11:16:22 [188.0.141.39][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/ivts/domains/ivts.kz/public_html/backend/messages/ru-RU/app.php Fallback file does not exist as well: /home/ivts/domains/ivts.kz/public_html/backend/messages/ru/app.php
+    in /home/ivts/domains/ivts.kz/public_html/backend/views/survey/index.php:12
+    in /home/ivts/domains/ivts.kz/public_html/backend/controllers/SurveyController.php:50
+2018-02-15 11:16:22 [188.0.141.39][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 188.0.141.39
+    in /home/ivts/domains/ivts.kz/public_html/backend/views/layouts/main.php:85
+    in /home/ivts/domains/ivts.kz/public_html/backend/controllers/SurveyController.php:50
+2018-02-15 11:16:22 [188.0.141.39][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 188.0.141.39
+2018-02-15 11:16:22 [188.0.141.39][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => '2ksdoj56b89gm87qaim07jl3r0'
+    '_csrf-frontend' => 'a7f2b1073d496058b85ee81191cf7cd7acafc5ed7e5954fe45210774bf8fd77ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"cKK1uU7QxIDznivrZXgE2xZrwCVa3fKv\";}'
+    '_csrf-backend' => '89aa5b911a81638d0a7664e231a8cbccd71aea6220b06bd1272a632e8d11d740a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"90Fescd137JpVi9dnW49SyphbuSFlyvM\";}'
+    'advanced-backend' => '80udfgsb44vdbnu20v0k1slrm2'
+    '_identity-backend' => 'cf5f4ec3f8b36512b91a5fc5fc43880a95f888ce432fe8f1b781fa7e0d4242a5a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zs0TYg7XC0N3ijztJkTCSBdn7HY7MrsY\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'ivts'
+    'HOME' => '/home/ivts'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'WoVsBs3Jpn3S8G0Nctc4MwAAAAg'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_UNIQUE_ID' => 'WoVsBs3Jpn3S8G0Nctc4MwAAAAg'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WoVsBs3Jpn3S8G0Nctc4MwAAAAg'
+    'proxy-nokeepalive' => '1'
+    'HTTP_X_ACCEL_INTERNAL' => '/nginx_static_files'
+    'HTTP_HOST' => 'ivts.kz'
+    'HTTP_X_FORWARDED_FOR' => '188.0.141.39'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://ivts.kz/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=2ksdoj56b89gm87qaim07jl3r0; _csrf-frontend=a7f2b1073d496058b85ee81191cf7cd7acafc5ed7e5954fe45210774bf8fd77ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22cKK1uU7QxIDznivrZXgE2xZrwCVa3fKv%22%3B%7D; _csrf-backend=89aa5b911a81638d0a7664e231a8cbccd71aea6220b06bd1272a632e8d11d740a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2290Fescd137JpVi9dnW49SyphbuSFlyvM%22%3B%7D; advanced-backend=80udfgsb44vdbnu20v0k1slrm2; _identity-backend=cf5f4ec3f8b36512b91a5fc5fc43880a95f888ce432fe8f1b781fa7e0d4242a5a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zs0TYg7XC0N3ijztJkTCSBdn7HY7MrsY%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2'
+    'SERVER_NAME' => 'ivts.kz'
+    'SERVER_ADDR' => '185.120.77.52'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '188.0.141.39'
+    'DOCUMENT_ROOT' => '/home/ivts/domains/ivts.kz/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ivts/domains/ivts.kz/public_html'
+    'SERVER_ADMIN' => 'webmaster@ivts.kz'
+    'SCRIPT_FILENAME' => '/home/ivts/domains/ivts.kz/public_html/backend/web/index.php'
+    'REMOTE_PORT' => '42990'
+    'REDIRECT_URL' => '/backend/web//survey/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/survey/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518693382.0409
+    'REQUEST_TIME' => 1518693382
+]
+2018-02-15 11:16:38 [188.0.141.39][1][80udfgsb44vdbnu20v0k1slrm2][error][yii\base\ViewNotFoundException] exception 'yii\base\ViewNotFoundException' with message 'The view file does not exist: /home/ivts/domains/ivts.kz/public_html/backend/views/survey/index.php' in /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/View.php:229
+Stack trace:
+#0 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/home/ivts/doma...', Array, Object(backend\controllers\SurveyController))
+#1 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\SurveyController))
+#2 /home/ivts/domains/ivts.kz/public_html/backend/controllers/SurveyController.php(50): yii\base\Controller->render('index', Array)
+#3 [internal function]: backend\controllers\SurveyController->actionIndex()
+#4 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('survey/index', Array)
+#8 /home/ivts/domains/ivts.kz/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ivts/domains/ivts.kz/public_html/backend/web/index.php(17): yii\base\Application->run()
+#10 {main}
+2018-02-15 11:16:38 [188.0.141.39][1][80udfgsb44vdbnu20v0k1slrm2][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 188.0.141.39
+2018-02-15 11:16:38 [188.0.141.39][1][80udfgsb44vdbnu20v0k1slrm2][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 188.0.141.39
+2018-02-15 11:16:37 [188.0.141.39][1][80udfgsb44vdbnu20v0k1slrm2][info][application] $_COOKIE = [
+    'advanced-frontend' => '2ksdoj56b89gm87qaim07jl3r0'
+    '_csrf-frontend' => 'a7f2b1073d496058b85ee81191cf7cd7acafc5ed7e5954fe45210774bf8fd77ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"cKK1uU7QxIDznivrZXgE2xZrwCVa3fKv\";}'
+    '_csrf-backend' => '89aa5b911a81638d0a7664e231a8cbccd71aea6220b06bd1272a632e8d11d740a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"90Fescd137JpVi9dnW49SyphbuSFlyvM\";}'
+    'advanced-backend' => '80udfgsb44vdbnu20v0k1slrm2'
+    '_identity-backend' => 'cf5f4ec3f8b36512b91a5fc5fc43880a95f888ce432fe8f1b781fa7e0d4242a5a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zs0TYg7XC0N3ijztJkTCSBdn7HY7MrsY\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'ivts'
+    'HOME' => '/home/ivts'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'WoVsFc3Jpn3S8G0Nctc4dAAAABM'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_UNIQUE_ID' => 'WoVsFc3Jpn3S8G0Nctc4dAAAABM'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WoVsFc3Jpn3S8G0Nctc4dAAAABM'
+    'proxy-nokeepalive' => '1'
+    'HTTP_X_ACCEL_INTERNAL' => '/nginx_static_files'
+    'HTTP_HOST' => 'ivts.kz'
+    'HTTP_X_FORWARDED_FOR' => '188.0.141.39'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://ivts.kz/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=2ksdoj56b89gm87qaim07jl3r0; _csrf-frontend=a7f2b1073d496058b85ee81191cf7cd7acafc5ed7e5954fe45210774bf8fd77ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22cKK1uU7QxIDznivrZXgE2xZrwCVa3fKv%22%3B%7D; _csrf-backend=89aa5b911a81638d0a7664e231a8cbccd71aea6220b06bd1272a632e8d11d740a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2290Fescd137JpVi9dnW49SyphbuSFlyvM%22%3B%7D; advanced-backend=80udfgsb44vdbnu20v0k1slrm2; _identity-backend=cf5f4ec3f8b36512b91a5fc5fc43880a95f888ce432fe8f1b781fa7e0d4242a5a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zs0TYg7XC0N3ijztJkTCSBdn7HY7MrsY%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2'
+    'SERVER_NAME' => 'ivts.kz'
+    'SERVER_ADDR' => '185.120.77.52'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '188.0.141.39'
+    'DOCUMENT_ROOT' => '/home/ivts/domains/ivts.kz/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ivts/domains/ivts.kz/public_html'
+    'SERVER_ADMIN' => 'webmaster@ivts.kz'
+    'SCRIPT_FILENAME' => '/home/ivts/domains/ivts.kz/public_html/backend/web/index.php'
+    'REMOTE_PORT' => '43204'
+    'REDIRECT_URL' => '/backend/web//survey/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/survey/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518693397.916
+    'REQUEST_TIME' => 1518693397
+]
+2018-02-15 11:17:36 [188.0.141.39][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/ivts/domains/ivts.kz/public_html/backend/messages/ru-RU/app.php Fallback file does not exist as well: /home/ivts/domains/ivts.kz/public_html/backend/messages/ru/app.php
+    in /home/ivts/domains/ivts.kz/public_html/backend/views/survey/index.php:12
+    in /home/ivts/domains/ivts.kz/public_html/backend/controllers/SurveyController.php:50
+2018-02-15 11:17:36 [188.0.141.39][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 188.0.141.39
+    in /home/ivts/domains/ivts.kz/public_html/backend/views/layouts/main.php:85
+    in /home/ivts/domains/ivts.kz/public_html/backend/controllers/SurveyController.php:50
+2018-02-15 11:17:36 [188.0.141.39][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 188.0.141.39
+2018-02-15 11:17:36 [188.0.141.39][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => '2ksdoj56b89gm87qaim07jl3r0'
+    '_csrf-frontend' => 'a7f2b1073d496058b85ee81191cf7cd7acafc5ed7e5954fe45210774bf8fd77ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"cKK1uU7QxIDznivrZXgE2xZrwCVa3fKv\";}'
+    '_csrf-backend' => '89aa5b911a81638d0a7664e231a8cbccd71aea6220b06bd1272a632e8d11d740a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"90Fescd137JpVi9dnW49SyphbuSFlyvM\";}'
+    'advanced-backend' => '80udfgsb44vdbnu20v0k1slrm2'
+    '_identity-backend' => 'cf5f4ec3f8b36512b91a5fc5fc43880a95f888ce432fe8f1b781fa7e0d4242a5a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zs0TYg7XC0N3ijztJkTCSBdn7HY7MrsY\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'ivts'
+    'HOME' => '/home/ivts'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'WoVsUM3Jpn3S8G0Nctc8zQAAACk'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_UNIQUE_ID' => 'WoVsUM3Jpn3S8G0Nctc8zQAAACk'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WoVsUM3Jpn3S8G0Nctc8zQAAACk'
+    'proxy-nokeepalive' => '1'
+    'HTTP_X_ACCEL_INTERNAL' => '/nginx_static_files'
+    'HTTP_HOST' => 'ivts.kz'
+    'HTTP_X_FORWARDED_FOR' => '188.0.141.39'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://ivts.kz/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=2ksdoj56b89gm87qaim07jl3r0; _csrf-frontend=a7f2b1073d496058b85ee81191cf7cd7acafc5ed7e5954fe45210774bf8fd77ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22cKK1uU7QxIDznivrZXgE2xZrwCVa3fKv%22%3B%7D; _csrf-backend=89aa5b911a81638d0a7664e231a8cbccd71aea6220b06bd1272a632e8d11d740a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2290Fescd137JpVi9dnW49SyphbuSFlyvM%22%3B%7D; advanced-backend=80udfgsb44vdbnu20v0k1slrm2; _identity-backend=cf5f4ec3f8b36512b91a5fc5fc43880a95f888ce432fe8f1b781fa7e0d4242a5a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zs0TYg7XC0N3ijztJkTCSBdn7HY7MrsY%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2'
+    'SERVER_NAME' => 'ivts.kz'
+    'SERVER_ADDR' => '185.120.77.52'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '188.0.141.39'
+    'DOCUMENT_ROOT' => '/home/ivts/domains/ivts.kz/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ivts/domains/ivts.kz/public_html'
+    'SERVER_ADMIN' => 'webmaster@ivts.kz'
+    'SCRIPT_FILENAME' => '/home/ivts/domains/ivts.kz/public_html/backend/web/index.php'
+    'REMOTE_PORT' => '45780'
+    'REDIRECT_URL' => '/backend/web//survey/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/survey/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518693456.7578
+    'REQUEST_TIME' => 1518693456
+]
+2018-02-15 11:47:12 [188.0.141.39][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/ivts/domains/ivts.kz/public_html/backend/messages/ru-RU/app.php Fallback file does not exist as well: /home/ivts/domains/ivts.kz/public_html/backend/messages/ru/app.php
+    in /home/ivts/domains/ivts.kz/public_html/backend/views/survey/index.php:12
+    in /home/ivts/domains/ivts.kz/public_html/backend/controllers/SurveyController.php:50
+2018-02-15 11:47:12 [188.0.141.39][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 188.0.141.39
+    in /home/ivts/domains/ivts.kz/public_html/backend/views/layouts/main.php:85
+    in /home/ivts/domains/ivts.kz/public_html/backend/controllers/SurveyController.php:50
+2018-02-15 11:47:12 [188.0.141.39][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 188.0.141.39
+2018-02-15 11:47:11 [188.0.141.39][1][-][info][application] $_COOKIE = [
+    'advanced-frontend' => '2ksdoj56b89gm87qaim07jl3r0'
+    '_csrf-frontend' => 'a7f2b1073d496058b85ee81191cf7cd7acafc5ed7e5954fe45210774bf8fd77ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"cKK1uU7QxIDznivrZXgE2xZrwCVa3fKv\";}'
+    '_csrf-backend' => '89aa5b911a81638d0a7664e231a8cbccd71aea6220b06bd1272a632e8d11d740a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"90Fescd137JpVi9dnW49SyphbuSFlyvM\";}'
+    'advanced-backend' => '80udfgsb44vdbnu20v0k1slrm2'
+    '_identity-backend' => 'cf5f4ec3f8b36512b91a5fc5fc43880a95f888ce432fe8f1b781fa7e0d4242a5a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"zs0TYg7XC0N3ijztJkTCSBdn7HY7MrsY\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'USER' => 'ivts'
+    'HOME' => '/home/ivts'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'WoVzPymHlHIIv4kZxwi@SQAAACc'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_UNIQUE_ID' => 'WoVzPymHlHIIv4kZxwi@SQAAACc'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WoVzPymHlHIIv4kZxwi@SQAAACc'
+    'proxy-nokeepalive' => '1'
+    'HTTP_X_ACCEL_INTERNAL' => '/nginx_static_files'
+    'HTTP_HOST' => 'ivts.kz'
+    'HTTP_X_FORWARDED_FOR' => '188.0.141.39'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://ivts.kz/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-frontend=2ksdoj56b89gm87qaim07jl3r0; _csrf-frontend=a7f2b1073d496058b85ee81191cf7cd7acafc5ed7e5954fe45210774bf8fd77ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22cKK1uU7QxIDznivrZXgE2xZrwCVa3fKv%22%3B%7D; _csrf-backend=89aa5b911a81638d0a7664e231a8cbccd71aea6220b06bd1272a632e8d11d740a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%2290Fescd137JpVi9dnW49SyphbuSFlyvM%22%3B%7D; advanced-backend=80udfgsb44vdbnu20v0k1slrm2; _identity-backend=cf5f4ec3f8b36512b91a5fc5fc43880a95f888ce432fe8f1b781fa7e0d4242a5a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22zs0TYg7XC0N3ijztJkTCSBdn7HY7MrsY%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2'
+    'SERVER_NAME' => 'ivts.kz'
+    'SERVER_ADDR' => '185.120.77.52'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '188.0.141.39'
+    'DOCUMENT_ROOT' => '/home/ivts/domains/ivts.kz/public_html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ivts/domains/ivts.kz/public_html'
+    'SERVER_ADMIN' => 'webmaster@ivts.kz'
+    'SCRIPT_FILENAME' => '/home/ivts/domains/ivts.kz/public_html/backend/web/index.php'
+    'REMOTE_PORT' => '46390'
+    'REDIRECT_URL' => '/backend/web//survey/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/survey/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1518695231.9397
+    'REQUEST_TIME' => 1518695231
+]

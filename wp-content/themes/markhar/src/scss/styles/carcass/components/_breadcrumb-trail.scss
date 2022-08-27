@@ -1,0 +1,42 @@
+.breadcrumb-trail {
+
+}
+
+.breadcrumb-trail .trail-items {
+  @include list-reset;
+  @include flex-wrap;
+}
+
+.breadcrumb-trail .trail-item {
+  position: relative;
+
+  margin-right: 15px;
+  padding-right: 15px;
+
+  font-size: 18px;
+
+  &::after {
+    position: absolute;
+    right: -4px;
+
+    content: '/';
+  }
+
+  &:last-child {
+    margin: 0;
+    padding: 0;
+
+    &::after {
+      content: '';
+    }
+  }
+}
+
+.breadcrumb-trail .trail-link {
+  color: get-color('white');
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}

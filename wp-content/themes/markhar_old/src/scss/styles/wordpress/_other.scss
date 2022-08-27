@@ -1,0 +1,18 @@
+.wp-block-file {
+
+}
+
+.wp-block-file a {
+  &:first-child {
+    color: get-color('primary');
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+.wp-block-file a.wp-block-file__button {
+  background-color: get-color('secondary');
+}

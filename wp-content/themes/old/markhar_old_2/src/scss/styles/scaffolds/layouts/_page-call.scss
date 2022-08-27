@@ -1,0 +1,66 @@
+.page-call {
+  position: relative;
+
+  padding: 130px 0;
+
+  background-color: get-color('white-dark');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.page-call__container {
+
+}
+
+.page-call__wrapp {
+  position: relative;
+
+  width: 70%;
+  margin-left: auto;
+
+  text-align: right;
+}
+
+.page-call__title {
+  margin: 0 0 60px;
+
+  color: get-color('black');
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.page-call__more {
+
+}
+
+@include to(900px) {
+  .page-call__more {
+    color: get-color('white');
+
+    background-color: get-color('primary');
+
+    &:focus {
+      background-color: darken(get-color('primary'), 5%);
+    }
+  }
+}
+
+
+@include to(800px) {
+  .page-call {
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      width: 100%;
+      height: 100%;
+
+      background-color: rgba(#fff, 0.3);
+
+      content: '';
+    }
+  }
+}

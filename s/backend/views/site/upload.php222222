@@ -1,0 +1,28 @@
+<?php
+use yii\bootstrap\ActiveForm;
+use yii\helpers\Html;
+?>
+<div style="width:50%;margin: 0 auto;"><h3 style="float:left;font-weight: bold;margin-right: 10px;">Анкеты - Загрузка CSV файла из SPSS: </h3>
+<?php $form = ActiveForm::begin(['options' => ['enctype'=>'multipart/form-data']]); ?>
+<?= $form->field($model,'file')->fileInput(); ?>
+    
+    <div class="form-group">
+        <?= Html::submitButton('Отправить',['class'=>'btn btn-primary']) ?>
+    </div>
+</div>
+<?php ActiveForm::end(); ?>
+
+<hr />
+
+<div style="width:50%;margin: 0 auto;"><h3 style="float:left;font-weight: bold;margin-right: 10px;">Загрузка CSV файла из SPSS - Маршрутные листы: </h3>
+<?php $form = ActiveForm::begin(['options' => ['enctype'=>'multipart/form-data'], 'action' =>['uploadsurveydata']]); ?>
+<?= $form->field($model,'file')->fileInput(); ?>
+<?= $form->field($model, 'output_title')->checkbox(); ?>
+
+    
+    <div class="form-group">
+        <?= Html::submitButton('Отправить',['class'=>'btn btn-primary']) ?>
+        
+    </div>
+</div>
+<?php ActiveForm::end(); ?>

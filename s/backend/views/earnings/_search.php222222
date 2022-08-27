@@ -1,0 +1,52 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
+
+/* @var $this yii\web\View */
+/* @var $model backend\models\SurveysSearch */
+/* @var $form yii\widgets\ActiveForm */
+?>
+
+<div class="surveys-search">
+
+    <?php $form = ActiveForm::begin([
+        'action' => ['index'],
+        'method' => 'get',
+        'options' => [
+            'data-pjax' => 1
+        ],
+    ]); ?>
+
+    <?= $form->field($model, 'id') ?>
+
+    <?= $form->field($model, 'surv_num') ?>
+
+    <?= $form->field($model, 'resp_name') ?>
+
+    <?= $form->field($model, 'tel') ?>
+
+    <?= $form->field($model, 'geo_ul') ?>
+
+    <?php // echo $form->field($model, 'geo_dom') ?>
+
+    <?php // echo $form->field($model, 'geo_kv') ?>
+
+    <?php // echo $form->field($model, 'geo_data') ?>
+
+    <?php // echo $form->field($model, 'time') ?>
+
+    <?php // echo $form->field($model, 'created_at') ?>
+
+    <?php // echo $form->field($model, 'updated_at') ?>
+
+    <?php // echo $form->field($model, 'status') ?>
+
+    <div class="form-group">
+        <?= Html::submitButton(Yii::t('app', 'Search'), ['class' => 'btn btn-primary']) ?>
+        <?= Html::resetButton(Yii::t('app', 'Reset'), ['class' => 'btn btn-default']) ?>
+    </div>
+
+    <?php ActiveForm::end(); ?>
+
+</div>

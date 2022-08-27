@@ -1,0 +1,13 @@
+@import 'core/generated/smartgrid';
+@import 'core/helpers/variables';
+@import 'core/helpers/functions';
+@import 'core/helpers/mixins';
+@import 'core/base/base';
+@import 'core/base/wordpress';
+@import 'node_modules/slick-carousel/slick/slick.scss';
+@import 'node_modules/slick-carousel/slick/slick-theme.scss';
+@import 'styles/wordpress/**/*';
+@import 'styles/carcass/components/**/*';
+@import 'styles/carcass/layouts/**/*';
+@import 'styles/scaffolds/components/**/*';
+@import 'styles/scaffolds/layouts/**/*';

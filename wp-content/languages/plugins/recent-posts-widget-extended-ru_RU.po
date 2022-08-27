@@ -1,0 +1,248 @@
+# Translation of Plugins - Recent Posts Widget Extended - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Recent Posts Widget Extended - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-29 04:46:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Recent Posts Widget Extended - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "Satrya"
+msgstr "Satrya"
+
+#. Description of the plugin
+msgid "Enables advanced widget that gives you total control over the output of your site’s most recent Posts."
+msgstr "Продвинутый виджет вывода последних записей сайта."
+
+#. Plugin Name of the plugin
+msgid "Recent Posts Widget Extended"
+msgstr "Recent Posts Widget Extended"
+
+#: includes/functions.php:194
+msgid "1 Comment"
+msgstr "Комментарии: 1"
+
+#: includes/functions.php:192
+msgid "%s Comments"
+msgstr "Комментарии: %s"
+
+#: includes/functions.php:190
+msgid "No Comments"
+msgstr "Комментарии: 0"
+
+#: includes/functions.php:177 includes/functions.php:183
+msgid "%s ago"
+msgstr "%s назад"
+
+#: includes/functions.php:172
+msgid "Permalink to %s"
+msgstr "Ссылка на %s"
+
+#: includes/functions.php:49
+msgid "Read More &raquo;"
+msgstr "Читать дальше &raquo;"
+
+#: includes/functions.php:23
+msgid "Recent Posts"
+msgstr "Recent Posts Extended"
+
+#: includes/form.php:295
+msgid "If you turn off the default styles, you can use these css code to customize the recent posts style."
+msgstr "Если вы выключили использование стилей по умолчанию, то тут вы можете задать CSS-стили для вывода последних записей."
+
+#: includes/form.php:292
+msgid "Custom CSS"
+msgstr "Собственные CSS стили"
+
+#: includes/form.php:286
+msgid "Use Default Styles"
+msgstr "Использовать стили по умолчанию"
+
+#: includes/form.php:274
+msgid "Use Relative Date. eg: 5 days ago"
+msgstr "Использовать относительную дату (например, 5 дней назад)"
+
+#: includes/form.php:267
+msgid "Display Modification Date"
+msgstr "Выводить дату изменения"
+
+#: includes/form.php:260
+msgid "Display Date"
+msgstr "Выводить дату публикации"
+
+#: includes/form.php:253
+msgid "Display Comment Count"
+msgstr "Выводить количество комментариев"
+
+#: includes/form.php:245
+msgid "Readmore Text"
+msgstr "Текст тега «Читать дальше»"
+
+#: includes/form.php:239
+msgid "Display Readmore"
+msgstr "Выводить тег «Читать дальше»"
+
+#: includes/form.php:231
+msgid "Excerpt Length"
+msgstr "Длина цитаты (в словах)"
+
+#: includes/form.php:225
+msgid "Display Excerpt"
+msgstr "Выводить цитату"
+
+#: includes/form.php:217
+msgid "Leave it blank to disable."
+msgstr "Для отключения оставьте это поле пустым."
+
+#: includes/form.php:214
+msgid "Default Thumbnail"
+msgstr "Миниатюра по умолчанию"
+
+#: includes/form.php:208
+msgid "Center"
+msgstr "В центре"
+
+#: includes/form.php:207
+msgid "Right"
+msgstr "Справа"
+
+#: includes/form.php:206
+msgid "Left"
+msgstr "Слева"
+
+#: includes/form.php:201
+msgid "Thumbnail (height,width,align)"
+msgstr "Миниатюра (высота, ширина, выравнивание)"
+
+#: includes/form.php:195
+msgid "Display Thumbnail"
+msgstr "Выводить миниатюру"
+
+#: includes/form.php:187
+msgid "The number of posts to skip"
+msgstr "Число записей, которые необходимо пропустить"
+
+#: includes/form.php:184
+msgid "Offset"
+msgstr "Смещение"
+
+#: includes/form.php:177
+msgid "Number of posts to show"
+msgstr "Число записей для вывода"
+
+#: includes/form.php:167
+msgid "Available: "
+msgstr "Доступны переменные: "
+
+#: includes/form.php:166
+msgid "Ex: category=1,2,4&amp;post_tag=6,12"
+msgstr "Например: category=1,2,4&amp;post_tag=6,12"
+
+#: includes/form.php:163
+msgid "Limit to Taxonomy"
+msgstr "Только таксономии:"
+
+#: includes/form.php:147
+msgid "Limit to Tag"
+msgstr "Только метки: "
+
+#: includes/form.php:131
+msgid "Limit to Category"
+msgstr "Только рубрики:"
+
+#: includes/form.php:125
+msgid "Menu Order"
+msgstr "Сортировка меню"
+
+#: includes/form.php:124
+msgid "Comment Count"
+msgstr "числу комментариев"
+
+#: includes/form.php:123
+msgid "Random"
+msgstr "случайно"
+
+#: includes/form.php:122
+msgid "Modified"
+msgstr "дате изменения"
+
+#: includes/form.php:121
+msgid "Date"
+msgstr "дате публикации"
+
+#: includes/form.php:119
+msgid "Author"
+msgstr "автору"
+
+#: includes/form.php:118
+msgid "ID"
+msgstr "ID"
+
+#: includes/form.php:115
+msgid "Orderby"
+msgstr "Сортировать по:"
+
+#: includes/form.php:109
+msgid "Ascending"
+msgstr "по возрастанию"
+
+#: includes/form.php:108
+msgid "Descending"
+msgstr "по убыванию"
+
+#: includes/form.php:105
+msgid "Order"
+msgstr "Направление сортировки"
+
+#: includes/form.php:94
+msgid "Post Status"
+msgstr "Статус записи"
+
+#: includes/form.php:78
+msgid "Post Types"
+msgstr "Типы записей"
+
+#: includes/form.php:72
+msgid "Exclude current post"
+msgstr "Исключить текущую запись"
+
+#: includes/form.php:65
+msgid "Ignore sticky posts"
+msgstr "Игнорировать прикрепленные записи"
+
+#: includes/form.php:53
+msgid "HTML or text after the recent posts"
+msgstr "HTML или текст после вывода последних записей"
+
+#: includes/form.php:46
+msgid "HTML or text before the recent posts"
+msgstr "HTML или текст перед выводом последних записей"
+
+#: includes/form.php:39
+msgid "CSS Class"
+msgstr "CSS Class"
+
+#: includes/form.php:32
+msgid "CSS ID"
+msgstr "CSS ID"
+
+#: includes/form.php:25
+msgid "Title URL"
+msgstr "URL заголовка:"
+
+#: includes/form.php:18 includes/form.php:120
+msgid "Title"
+msgstr "Заголовок"
+
+#: classes/widget.php:37
+msgid "Recent Posts Extended"
+msgstr "Recent Posts Extended"
+
+#: classes/widget.php:25
+msgid "An advanced widget that gives you total control over the output of your site’s most recent Posts."
+msgstr "Продвинутый виджет для вывода последних записей."

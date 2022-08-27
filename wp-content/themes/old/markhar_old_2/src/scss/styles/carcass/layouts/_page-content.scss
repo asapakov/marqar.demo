@@ -1,0 +1,53 @@
+.inner .page-content {
+  background: linear-gradient(to bottom, transparent 80%, #f5f5f5);
+}
+
+.page-content__container {
+  @include flex-wrap;
+  justify-content: space-between;
+}
+
+.page-content__content {
+  @include size(8);
+  padding: 80px 0;
+}
+
+.page-content__sidebar {
+  @include size(4);
+  padding: 80px 30px;
+
+  color: get-color('white');
+
+  background: get-color('primary');
+}
+
+.page-content__content--archive {
+  @include flex-wrap;
+}
+
+@include to(1200px) {
+  .page-content__container {
+    @include container;
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .page-content__content {
+    @include size(8);
+  }
+
+  .page-content__sidebar {
+    @include size(4);
+  }
+}
+
+@include to(800px) {
+  .page-content__content,
+  .page-content__sidebar {
+    @include size(12);
+  }
+
+  .page-content__sidebar {
+    margin-bottom: 80px;
+  }
+}

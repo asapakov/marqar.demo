@@ -1,0 +1,179 @@
+.page-slider {
+  position: relative;
+
+  margin-top: -117px;
+
+  box-shadow: 0 10px 10px #ccc;
+
+  &::before {
+    @include overlay(get-color('secondary'));
+  }
+}
+
+.page-slider__list {
+  @include list-reset;
+}
+
+.page-slider__item {
+  height: 700px;
+  padding: 160px 0;
+
+  background-color: get-color('black');
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.page-slider--nojs .page-slider__item {
+  display: none;
+
+  &:first-child {
+    display: block;
+  }
+}
+
+.page-slider__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.page-slider__wrapp {
+  position: relative;
+
+  max-width: 70%;
+  max-height: 300px;
+  overflow: hidden;
+
+  color: #fff;
+}
+
+.page-slider__title {
+  margin: 0 0 30px;
+
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.page-slider__link {
+  color: get-color('primary');
+  // text-decoration: none;
+
+  // &:hover,
+  // &:focus {
+  //   text-decoration: underline;
+  // }
+}
+
+.page-slider__desc {
+  // display: none;
+  margin-bottom: 60px;
+
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.page-slider__desc p {
+  margin: 0;
+
+  @include inner-p;
+}
+
+.page-slider__more {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+// .page-slider .slick-track
+.page-slider .slick-slide {
+  &::before {
+    @include overlay(get-color('secondary'));
+  }
+}
+
+.page-slider .slick-dots {
+  bottom: 50px;
+  left: 50%;
+
+  width: auto;
+
+  transform: translateX(-50%);
+}
+
+.page-slider .slick-dots li {
+  width: 50px;
+  height: 4px;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.page-slider .slick-dots button {
+  width: 100%;
+  height: 100%;
+
+  &::before {
+    width: 100%;
+    height: 100%;
+
+    background-color: #d3d3d3;
+
+    opacity: 1 !important;
+
+    content: '';
+  }
+}
+
+.page-slider .slick-active button {
+  &::before {
+    background-color: get-color('primary');
+  }
+}
+
+.page-slider .slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+@include to(1704px) {
+  .page-slider {
+    background: #ececec;
+  }
+}
+
+@include to(1200px) {
+  .page-slider__list {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .page-slider__container {
+    align-items: center;
+    margin: 0;
+  }
+
+  .page-slider .slick-dots {
+    left: 50%;
+
+    transform: translateX(-50%);
+  }
+}
+
+@include to(768px) {
+  .page-slider__wrapp {
+    max-width: 100%;
+  }
+
+  .page-slider__item {
+    height: 600px;
+    padding: 0;
+  }
+
+  .page-slider__title,
+  .page-slider__desc {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,124 @@
+# Translation of Themes - Calliope in Russian
+# This file is distributed under the same license as the Themes - Calliope package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-22 09:59:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Calliope\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Calliope is a beautiful, very customizable, multipurpose theme that you can use to create amazing websites through drag and drop. It comes with a pre-designed home page, 5 header designs and over 35 ready-to-use content blocks that you can easily customize. You can also design your own custom blocks by combining more than 25 drag and drop components. Calliope offers lots of customization options (video background, slideshow background, header content types, etc) to help you create a website that stands out in no time. It is also designed with responsiveness, to work on mobile devices right out of the box. Calliope is the only theme you will ever need! CHECK OUT THE DEMOS: https://colibriwp.com/go/calliope-demos"
+msgstr "Calliope — это красивая, чрезвычайно настраиваемая, многоцелевая тема, которую вы можете использовать для создания удивительного сайта с помощью перетаскивания. Она поставляется с предустановленной домашней страницей, 5 дизайнами заголовков и более 35 готовыми к использованию блоками контента, которые легко настраиваются. Вы также можете создавать свои собственные пользовательские блоки, комбинируя более 25 компонентов с помощью перетаскивания. Calliope предоставляет множество вариантов настройки (видео фоном, слайд-шоу фоном, типы содержимого заголовков и т.д.), которые помогут вам создать выделяющийся веб-сайт в кратчайшие сроки. Тема отзывчива, следовательно работает на мобильных устройствах из коробки. Calliope является единственной темой, которая вам когда-либо понадобится! ДЕМО: https://colibriwp.com/go/calliope-demos"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Calliope"
+msgstr "Calliope"
+
+#: template-parts/main/404.php:22
+msgid "Go to the homepage!"
+msgstr "Вернуться на главную!"
+
+#: admin/admin-notice.php:70
+msgid "This action will also install the Colibri Page Builder plugin."
+msgstr "Это действие также установит плагин Colibri Page Builder."
+
+#: admin/admin-notice.php:58
+msgid "Maybe Later"
+msgstr "Может позже"
+
+#: admin/admin-notice.php:54
+msgid "Install the Calliope homepage"
+msgstr "Установить домашнюю страницу Calliope"
+
+#: admin/admin-notice.php:49
+msgid "Would you like to install the pre-designed Calliope homepage?"
+msgstr "Желаете установить предварительно настроенную домашнюю страницу Calliope?"
+
+#: functions.php:60
+msgid "%s is easy to learn and master, but you can always check out our documentation to learn about some features you might have missed."
+msgstr "%s легко изучить и освоить, но вы всегда можете ознакомиться с нашей документацией, чтобы узнать о функциях, которые вы, возможно, пропустили."
+
+#: functions.php:51
+msgid "%1$s plugin adds drag and drop functionality and many other features to the %2$s theme."
+msgstr "Плагин %1$s предоставляет функционал редактирования с помощью перетаскивания, а также ряд других функций для темы %2$s."
+
+#: functions.php:49
+msgid "%s Settings"
+msgstr "Настройки %s"
+
+#: template-parts/layout-wrapper-content/navigation-container-2.php:11
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: template-parts/layout-wrapper-content/navigation-container-2.php:37
+#: template-parts/layout-wrapper-content/navigation-container-3.php:11
+#: template-parts/layout-wrapper-content/navigation-container-3.php:37
+msgid "Back"
+msgstr "Назад"
+
+#: template-parts/layout-wrapper-content/navigation-container-2.php:10
+#: template-parts/layout-wrapper-content/navigation-container-2.php:36
+#: template-parts/layout-wrapper-content/navigation-container-3.php:10
+#: template-parts/layout-wrapper-content/navigation-container-3.php:36
+msgid "Next"
+msgstr "Следующая"
+
+#: template-parts/layout-wrapper-content/navigation-container-1.php:28
+msgid "next post"
+msgstr "следующая запись"
+
+#: template-parts/layout-wrapper-content/navigation-container-1.php:27
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: template-parts/layout-wrapper-content/navigation-container-1.php:11
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: template-parts/layout-wrapper-content/navigation-container-1.php:10
+msgid "previous post"
+msgstr "предыдущая запись"
+
+#: template-parts/main/404.php:13
+msgid "Sorry, page not found!"
+msgstr "Извините, страница не найдена!"
+
+#: template-parts/main/post.php:33
+msgid "{COMMENTS-COUNT} Responses"
+msgstr "{COMMENTS-COUNT} ответов"
+
+#: template-parts/main/post.php:32
+msgid "One response"
+msgstr "Один ответ"
+
+#: template-parts/main/post.php:31
+msgid "No responses yet"
+msgstr "Пока без ответов"
+
+#: template-parts/main/archive_item_template.php:72
+#: template-parts/main/search_item_template.php:57
+msgid "read more"
+msgstr "читать далее"
+
+#: template-parts/layout-wrapper-content/categories-container-1.php:20
+#: template-parts/main/archive_item_template.php:44
+#: template-parts/main/search_item_template.php:29
+msgid "-"
+msgstr "-"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://extendthemes.com/"
+msgstr "https://extendthemes.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Extend Themes"
+msgstr "Extend Themes"

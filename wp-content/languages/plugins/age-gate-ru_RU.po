@@ -1,0 +1,945 @@
+# Translation of Plugins - Age Gate - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Age Gate - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-28 15:46:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Age Gate - Stable (latest release)\n"
+
+#: admin/partials/age-gate-admin-messaging.php:236
+msgid "Minimum numeric message"
+msgstr "Сообщение для минимально возможного числа"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://agegate.io/"
+msgstr "https://agegate.io/"
+
+#: admin/partials/age-gate-admin-restriction.php:87
+msgid "This setting is unavailable with \"Anonymous Age Gate\" selected in the advanced tab"
+msgstr "Данная настройка недоступна, когда \"Анонимный Age Gate\" выбран во вкладке \"Расширенные\""
+
+#: admin/partials/age-gate-admin-advanced.php:166
+msgid "This setting is unavailable with \"Varied ages\" selected in the restrictions tab"
+msgstr "Данная настройка недоступна, когда \"Произвольное возрастное ограничение\" выбрано во вкладке \"Ограничения\""
+
+#: admin/partials/age-gate-admin-advanced.php:163
+msgid "This option makes Age Gate only store if a user has passed the challange and not an age for extra privacy"
+msgstr "Данная настройка позволяет Age Gate сохранять информацию (кроме возраста) только, если пользователь прошел контроль"
+
+#: admin/partials/age-gate-admin-advanced.php:162
+msgid "Use anonymous Age Gate"
+msgstr "Использовать анонимный Age Gate"
+
+#: admin/partials/age-gate-admin-advanced.php:147
+msgid "Anonymous Age Gate"
+msgstr "Анонимный Age Gate"
+
+#: includes/class-age-gate-activator.php:168
+msgid "Your browser does not support cookies, you may experience problems entering this site"
+msgstr "Ваш браузер не поддерживает технологию \"cookies\", возможно вы будете испытывать проблемы с доступом на сайт"
+
+#: admin/partials/age-gate-admin-messaging.php:125
+msgid "No cookies message"
+msgstr "Сообщение об отсутствии \"cookies\""
+
+#: admin/class-age-gate-addons.php:69
+msgid "Addons"
+msgstr "Расширения"
+
+#: admin/class-age-gate-access.php:41
+msgid "Access"
+msgstr "Доступ"
+
+#: admin/class-age-gate-advanced.php:39
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: admin/class-age-gate-appearance.php:41
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: admin/class-age-gate-messaging.php:38
+msgid "Messaging"
+msgstr "Сообщения"
+
+#: admin/class-age-gate-restriction.php:38
+msgid "Restrictions"
+msgstr "Ограничения"
+
+#: public/class-age-gate-public-submission.php:59
+msgid "year"
+msgstr "год"
+
+#: public/class-age-gate-public-submission.php:58
+msgid "month"
+msgstr "месяц"
+
+#: public/class-age-gate-public-submission.php:57
+msgid "day"
+msgstr "день"
+
+#: public/class-age-gate-public-registration.php:101
+msgid "Invalid date of birth"
+msgstr "Неправильная дата рождения"
+
+#: public/class-age-gate-public-registration.php:98
+msgid "Sorry, you are too young"
+msgstr "Извините, но вы еще слишком молодой(-ая)"
+
+#: public/class-age-gate-public-registration.php:98
+#: public/class-age-gate-public-registration.php:101
+msgid "ERROR"
+msgstr "ОШИБКА"
+
+#: public/class-age-gate-public-registration.php:53
+msgid "Date of Birth"
+msgstr "Дата рождения"
+
+#: public/class-age-gate-public-output.php:178
+msgid "Content contains disallowed inputs. Do not use age_gate as a name."
+msgstr "Контент содержит запрещенные поля. Не используйте \"age_gate\" в качестве имени."
+
+#: public/class-age-gate-public-output.php:174
+msgid "Incorrect content type. String expected."
+msgstr "Некорректное содержимое. Ожидалась строка."
+
+#: includes/class-age-gate-activator.php:167
+msgid "Submit"
+msgstr "Отправить"
+
+#: admin/partials/taxonomy/edit-all.php:7
+msgid "Age Restriction"
+msgstr "Возрастное ограничение"
+
+#: admin/partials/taxonomy/add-all.php:14
+#: admin/partials/taxonomy/add-selected.php:14
+msgid "Set age to"
+msgstr "Установить ограничение в"
+
+#: admin/partials/taxonomy/add-all.php:3
+#: admin/partials/taxonomy/add-selected.php:3
+#: admin/partials/taxonomy/edit-all.php:9
+msgid "Update the settings for the term's archive page"
+msgstr "Обновить настройки для архива таксономии"
+
+#: admin/partials/taxonomy/add-all.php:1
+#: admin/partials/taxonomy/add-selected.php:1
+msgid "Age restriction"
+msgstr "Возрастное ограничение"
+
+#: admin/partials/parts/publish-options.php:34
+#: admin/partials/parts/quick-edit.php:30
+#: admin/partials/taxonomy/add-selected.php:25
+#: admin/partials/taxonomy/edit-all.php:79
+msgid "Age Gate this content"
+msgstr "Установить возрастное ограничение на этот контент"
+
+#: admin/partials/parts/custom-age.php:21
+#: admin/partials/taxonomy/add-all.php:15
+#: admin/partials/taxonomy/add-selected.php:15
+#: admin/partials/taxonomy/edit-all.php:28
+msgid "OK"
+msgstr "OK"
+
+#: admin/partials/parts/custom-age.php:15
+#: admin/partials/taxonomy/edit-all.php:22
+msgid "Set age to:"
+msgstr "Установить ограничение в:"
+
+#: admin/partials/age-gate-admin-restriction.php:250
+msgid "If someone fails the age test, they can try again."
+msgstr "Если пользователь не проходит под возрастное ограничение, он может попробовать еще раз."
+
+#: admin/partials/age-gate-admin-restriction.php:238
+msgid "Rechallenge"
+msgstr "Попробовать снова"
+
+#: admin/partials/age-gate-admin-restriction.php:189
+msgid "Minutes"
+msgstr "Минуты"
+
+#: admin/partials/age-gate-admin-restriction.php:188
+msgid "Hours"
+msgstr "Часы"
+
+#: admin/partials/age-gate-admin-restriction.php:187
+msgid "Days"
+msgstr "Дни"
+
+#: admin/partials/age-gate-admin-restriction.php:85
+msgid "Ability to add a custom age on a per page level "
+msgstr "Возможность установить произвольное возрастное ограничение для каждой страницы"
+
+#: admin/partials/age-gate-admin-restriction.php:72
+msgid "Varied ages"
+msgstr "Произвольное возрастное ограничение"
+
+#: admin/partials/age-gate-admin-restriction.php:28
+msgid "Default age"
+msgstr "Возрастное ограничение по-умолчанию"
+
+#: admin/partials/age-gate-admin-messaging.php:248
+msgid "See the documentation"
+msgstr "Посмотрите документацию"
+
+#: admin/partials/age-gate-admin-messaging.php:248
+msgid "More validators are available for custom fields."
+msgstr "Больше валидаторов доступно для произвольных полей."
+
+#: admin/partials/age-gate-admin-messaging.php:225
+msgid "Maximum numeric message"
+msgstr "Сообщение на максимально возможное число"
+
+#: admin/partials/age-gate-admin-messaging.php:214
+msgid "Maximum length message"
+msgstr "Сообщение на максимальную длину строки"
+
+#: admin/partials/age-gate-admin-messaging.php:209
+#: admin/partials/age-gate-admin-messaging.php:220
+#: admin/partials/age-gate-admin-messaging.php:231
+#: admin/partials/age-gate-admin-messaging.php:242
+msgid "Adding “{field}” will output the field name. Adding “{param}” will output the required length."
+msgstr "Добавление \"{field}\" выводит имя поля. Добавление \"{param}\" выводит необходимую длину."
+
+#: admin/partials/age-gate-admin-messaging.php:203
+msgid "Minimum length message"
+msgstr "Сообщение на минимальную длину строки"
+
+#: admin/partials/age-gate-admin-messaging.php:193
+msgid "Numeric field message"
+msgstr "Сообщение для поля с числами"
+
+#: admin/partials/age-gate-admin-messaging.php:188
+#: admin/partials/age-gate-admin-messaging.php:198
+msgid "Adding “{field}” will output the field name."
+msgstr "Добавление \"{field}\" выведет имя поля."
+
+#: admin/partials/age-gate-admin-messaging.php:183
+msgid "Required field message"
+msgstr "Текст для полей, обязательных для заполнения"
+
+#: admin/partials/age-gate-admin-messaging.php:146
+msgid "Validation messages"
+msgstr "Сообщения проверки"
+
+#: admin/partials/age-gate-admin-messaging.php:82
+msgid "No button text"
+msgstr "Текст для кнопки \"Нет\""
+
+#: admin/partials/age-gate-admin-messaging.php:67
+msgid "Yes button text"
+msgstr "Текст для кнопки \"Да\""
+
+#: admin/partials/age-gate-admin-messaging.php:56
+#: admin/partials/age-gate-admin-messaging.php:70
+#: admin/partials/age-gate-admin-messaging.php:85
+msgid "Only applicable if using yes/no buttons"
+msgstr "Применимо только если используются кнопки \"Да\"/\"Нет\""
+
+#: admin/partials/age-gate-admin-messaging.php:44
+msgid "Only applicable if Remember me is enabled"
+msgstr "Применимо только если используется чекбокс \"Запомнить меня\""
+
+#: admin/partials/age-gate-admin-messaging.php:41
+msgid "Remember me text"
+msgstr "Текст возле чекбокса \"Запомнить меня\""
+
+#: admin/partials/age-gate-admin-messaging.php:29
+#: admin/partials/age-gate-admin-messaging.php:36
+#: admin/partials/age-gate-admin-messaging.php:62
+msgid "Adding “%s” to this field will output the minimum age"
+msgstr "Добавление \"%s\" к этому полю выведет возрастное ограничение"
+
+#: admin/partials/age-gate-admin-appearance.php:382
+msgid "Input fields will automatically tab to the next once filled"
+msgstr "Поля ввода переключаются на следующий при заполнении"
+
+#: admin/partials/age-gate-admin-appearance.php:369
+msgid "Auto tab inputs"
+msgstr "Автоматический переход на следующее поле ввода"
+
+#: admin/partials/age-gate-admin-appearance.php:410
+msgid "Customise the title displayed when Age Gate is shown"
+msgstr "Заменить заголовок страницы, когда показана страница Age Gate"
+
+#: admin/partials/age-gate-admin-appearance.php:405
+msgid "Custom page title"
+msgstr "Пользовательский заголовок страницы"
+
+#: admin/partials/age-gate-admin-appearance.php:400
+msgid "Change the page title when Age Gate is shown"
+msgstr "Заменить заголовок страницы, когда показана страница Age Gate"
+
+#: admin/partials/age-gate-admin-appearance.php:364
+msgid "Add viewport meta to Age Gate page"
+msgstr "Добавить мета-тег \"viewport\" к странице Age Gate"
+
+#: admin/partials/age-gate-admin-appearance.php:256
+msgid "Foreground colour opacity"
+msgstr "Прозрачность цвета переднего фона"
+
+#: admin/partials/age-gate-admin-appearance.php:213
+msgid "Background image opacity"
+msgstr "Прозрачность изображения заднего фона"
+
+#: admin/partials/age-gate-admin-appearance.php:121
+msgid "Please see the notes section in the docs:"
+msgstr "Пожалуйста посмотрите секцию \"Примечания\" в документации:"
+
+#: admin/partials/age-gate-admin-appearance.php:98
+msgid "Background colour opacity"
+msgstr "Прозрачность цвета заднего фона"
+
+#: admin/partials/age-gate-admin-appearance.php:42
+#: admin/partials/age-gate-admin-appearance.php:143
+msgid "Select image"
+msgstr "Выбрать изображение"
+
+#: admin/partials/age-gate-admin-advanced.php:472
+msgid "Load Default CSS"
+msgstr "Загрузить CSS по-умолчанию"
+
+#: admin/partials/age-gate-admin-advanced.php:471
+msgid "CSS Reference"
+msgstr "Справка по CSS"
+
+#: admin/partials/age-gate-admin-advanced.php:466
+msgid "Sorry, JavaScript is required for this feature"
+msgstr "Извините, включенный JavaScript требуется для данной возможности"
+
+#: admin/partials/age-gate-admin-advanced.php:459
+msgid "Custom CSS"
+msgstr "Пользовательский CSS"
+
+#: admin/partials/age-gate-admin-advanced.php:439
+msgid "Unable to write to custom CSS file. Custom style will be enqueued inline."
+msgstr "Невозможно записать пользовательский CSS в файл. Пользовательские стили будут внедрены в страницу(как inline-стили)."
+
+#: admin/partials/age-gate-admin-advanced.php:434
+msgid "Write custom CSS to file"
+msgstr "Записать пользовательский CSS в файл"
+
+#: admin/partials/age-gate-admin-advanced.php:429
+msgid "You can add custom CSS for the Age Gate here."
+msgstr "Вы можете добавить пользовательский CSS для Age Gate тут."
+
+#: admin/partials/age-gate-admin-advanced.php:428
+msgid "Custom Styling"
+msgstr "Пользовательские стили"
+
+#: admin/partials/age-gate-admin-advanced.php:373
+msgid "Hide the development warning message"
+msgstr "Спрятать предупреждение для версии \"в разработке\""
+
+#: admin/partials/age-gate-admin-advanced.php:359
+msgid "Development warning"
+msgstr "Предупреждение для версии \"в разработке\""
+
+#: admin/partials/age-gate-admin-advanced.php:352
+msgid "Show messages about new development versions"
+msgstr "Показывать сообщения о вышедших версиях \"в разработке\""
+
+#: admin/partials/age-gate-admin-advanced.php:338
+msgid "Development Versions"
+msgstr "Версии \"в разработке\""
+
+#: admin/partials/age-gate-admin-advanced.php:333
+msgid "Get notifications of new development builds. These will not be installed for you and you will only see notifications if you are already using a development version."
+msgstr "Получать обновления о новых версиях \"в разработке\". Они не могут быть установлены и вы будете видеть только оповещения, если вы уже используете версию \"в разработке\"."
+
+#: admin/partials/age-gate-admin-advanced.php:332
+msgid "Dev builds"
+msgstr "Версии \"в разработке\""
+
+#: admin/partials/age-gate-admin-advanced.php:48
+msgid "Use JavaScript Age Gate"
+msgstr "Использовать JavaScript-реализацию Age Gate"
+
+#: admin/partials/age-gate-admin-advanced.php:37
+#: admin/partials/age-gate-admin-advanced.php:61
+#: admin/partials/age-gate-admin-advanced.php:152
+#: admin/partials/age-gate-admin-advanced.php:342
+#: admin/partials/age-gate-admin-advanced.php:363
+msgid "Select an option"
+msgstr "Выберите опцию"
+
+#: admin/partials/age-gate-admin-access.php:194
+msgid "Do not show Age Gate publish actions for the following post types"
+msgstr "Не показывать настройки публикации Age Gate для данных типов записей"
+
+#: admin/partials/age-gate-admin-access.php:192
+#: admin/partials/age-gate-admin-access.php:199
+msgid "Post Types"
+msgstr "Типы записей"
+
+#: admin/partials/age-gate-admin-access.php:171
+msgid "Change age for indiviual content"
+msgstr "Сменить возрастное ограничение для произвольного контента"
+
+#: admin/partials/age-gate-admin-access.php:151
+msgid "Allow bypass for indiviual content"
+msgstr "Разрешает обход ограничений для произвольного контента"
+
+#: admin/partials/age-gate-admin-access.php:151
+msgid "All content mode"
+msgstr "Режим \"Весь контент\""
+
+#: admin/partials/age-gate-admin-access.php:132
+msgid "Selected content mode"
+msgstr "Режим \"Выбранный контент\""
+
+#: admin/partials/age-gate-admin-access.php:132
+msgid "Restrict indiviual content"
+msgstr "Запретить произвольный контент"
+
+#: admin/partials/age-gate-admin-access.php:113
+msgid "Manage access permissions"
+msgstr "Управление доступами к содержимому"
+
+#: admin/partials/age-gate-admin-access.php:93
+msgid "Manage Advanced settings"
+msgstr "Управление Расширенными настройками"
+
+#: admin/partials/age-gate-admin-access.php:74
+msgid "Manage Appearance settings"
+msgstr "Управление настройками Внешнего вида"
+
+#: admin/partials/age-gate-admin-access.php:55
+msgid "Manage Messaging settings"
+msgstr "Управление настройками Сообщений"
+
+#: admin/partials/age-gate-admin-access.php:37
+#: admin/partials/age-gate-admin-access.php:57
+#: admin/partials/age-gate-admin-access.php:76
+#: admin/partials/age-gate-admin-access.php:95
+#: admin/partials/age-gate-admin-access.php:115
+#: admin/partials/age-gate-admin-access.php:134
+#: admin/partials/age-gate-admin-access.php:153
+#: admin/partials/age-gate-admin-access.php:174
+msgid "User roles"
+msgstr "Роли пользователей"
+
+#: admin/partials/age-gate-admin-access.php:34
+msgid "Manage Restriction settings"
+msgstr "Управление настройками Ограничений"
+
+#: admin/partials/age-gate-admin-access.php:28
+msgid "Access management"
+msgstr "Управление доступами"
+
+#: admin/config/config.php:29
+msgctxt "Admin tab title"
+msgid "Access Settings"
+msgstr "Настройки доступа"
+
+#: admin/config/config.php:23
+msgctxt "Admin tab title"
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: admin/config/config.php:18
+msgctxt "Admin tab title"
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: admin/config/config.php:13
+msgctxt "Admin tab title"
+msgid "Messaging"
+msgstr "Сообщения"
+
+#: admin/config/config.php:8
+msgctxt "Admin tab title"
+msgid "Restriction settings"
+msgstr "Настройки ограничений"
+
+#: admin/class-age-gate-taxonomies.php:76
+msgid "ID not found"
+msgstr "ID не найден"
+
+#: admin/class-age-gate-post-types.php:37
+#: admin/partials/parts/custom-age.php:10
+#: admin/partials/parts/custom-age.php:31
+#: admin/partials/parts/list-table.php:19
+#: admin/partials/parts/list-table.php:22
+#: admin/partials/taxonomy/add-selected.php:10
+#: admin/partials/taxonomy/add-selected.php:19
+#: admin/partials/taxonomy/edit-all.php:17
+#: admin/partials/taxonomy/edit-all.php:38
+msgid "Unrestricted"
+msgstr "Без ограничений"
+
+#: admin/class-age-gate-post-types.php:36 admin/partials/parts/custom-age.php:8
+#: admin/partials/taxonomy/add-all.php:10
+#: admin/partials/taxonomy/edit-all.php:15
+msgid "Change"
+msgstr "Изменить"
+
+#: admin/class-age-gate-post-types.php:35 admin/partials/parts/custom-age.php:8
+#: admin/partials/parts/custom-age.php:29
+#: admin/partials/parts/list-table.php:14
+#: admin/partials/parts/list-table.php:17
+#: admin/partials/taxonomy/add-all.php:10
+#: admin/partials/taxonomy/add-all.php:19
+#: admin/partials/taxonomy/edit-all.php:15
+#: admin/partials/taxonomy/edit-all.php:36
+msgid "Restricted to"
+msgstr "Ограничен до"
+
+#: admin/class-age-gate-ajax.php:67
+msgid "Could not update. "
+msgstr "Невозможно обновить."
+
+#: admin/class-age-gate-ajax.php:60
+msgid "Updated successfully."
+msgstr "Успешно обновлено."
+
+#: admin/class-age-gate-advanced.php:138
+msgid "Restore"
+msgstr "Восстановить"
+
+#: admin/class-age-gate-advanced.php:138
+msgid "There was an issue with the CSS input so this has not been updated to protect your site. If you think this is should not have happened, you can restore the data and review it. "
+msgstr "Возникла проблема с CSS, поэтому изменения не были сохранены для безопасности сайта. Если вы считаете, что это не должно было произойти, вы можете восстановить данные и перепроверить их."
+
+#: admin/class-age-gate-admin.php:252
+msgctxt "Confirm message presented on enabling update"
+msgid "You can now proceed with the update"
+msgstr "Теперь вы можете получать обновления"
+
+#: admin/class-age-gate-admin.php:251
+msgctxt "Warning message presented when trying to update between major versions"
+msgid "I have read the warning and understand updating could cause unexpected results."
+msgstr "Я прочел предупреждение и понимаю, что обновление может вызвать непредсказуемые результаты."
+
+#: admin/class-age-gate-admin.php:247
+msgid "There are warnings in your CSS. You can save your changes, but there may be display issues."
+msgstr "В вашем CSS присутствуют предупреждения. Вы можете сохранить ваши изменение, но возможно появление проблем с отображением."
+
+#: admin/class-age-gate-admin.php:238
+msgctxt "Image uploader button"
+msgid "Use this image"
+msgstr "Использовать это изображение"
+
+#: admin/class-age-gate-admin.php:237
+msgctxt "Image uploader text"
+msgid "Select an image to upload"
+msgstr "Выберите изображение для загрузки"
+
+#: admin/class-age-gate-admin.php:208
+#: admin/partials/age-gate-admin-appearance.php:121
+msgid "Documentation"
+msgstr "Документация"
+
+#: admin/class-age-gate-admin.php:147
+msgid "View downloads"
+msgstr "Посмотреть загрузки"
+
+#: admin/class-age-gate-admin.php:146
+msgid "A new development version of Age Gate has been released. <b>%s</b> is the latest build, you have <b>%s</b>."
+msgstr "Новая версия \"в разработке\" Age Gate была выпущена. Последняя версия - <b>%s</b>, у вас установлена версия <b>%s</b>."
+
+#: admin/class-age-gate-addons.php:153
+#: admin/partials/age-gate-admin-denied.php:19
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Извините, вам запрещен доступ к данной странице."
+
+#: admin/class-age-gate-addons.php:59
+msgctxt "Admin tab title"
+msgid "Addons"
+msgstr "Расширения"
+
+#: admin/class-age-gate-access.php:107 admin/class-age-gate-addons.php:133
+#: admin/class-age-gate-advanced.php:115 admin/class-age-gate-appearance.php:96
+#: admin/class-age-gate-messaging.php:125
+#: admin/class-age-gate-restriction.php:101
+msgid "Settings saved successfully."
+msgstr "Настройки успешно сохранены."
+
+#: admin/class-age-gate-access.php:75 admin/class-age-gate-addons.php:112
+#: admin/class-age-gate-advanced.php:86 admin/class-age-gate-appearance.php:82
+#: admin/class-age-gate-messaging.php:104
+#: admin/class-age-gate-restriction.php:87
+msgid "Sorry, your nonce did not verify."
+msgstr "Извините, ваш одноразовый код не сходится."
+
+#: admin/partials/age-gate-admin-advanced.php:452
+msgid "Will save custom CSS to file and enqueue it on the front-end"
+msgstr "Сохранить пользовательский CSS в файл и подключить его в \"front-end\""
+
+#: admin/class-age-gate-update.php:94
+msgid "Enable update"
+msgstr "Включить обновления"
+
+#: admin/class-age-gate-update.php:94
+msgid "The update link has been disabled just to be safe, but if you are sure you want to update you can enable the update link here: "
+msgstr "Ссылка для обновления была отключена для безопасности, но если вы хотите обновить, вы можете включить ссылку для обновления тут:"
+
+#: admin/class-age-gate-update.php:93
+msgid "It is advised that you do not update on a live website and test locally or on a staging site first."
+msgstr "Рекомендуется не обновлять на живом сайте, а сначала протестировать локально или на тестовом сайте."
+
+#: admin/class-age-gate-update.php:92
+msgid "This is a milestone release of Age Gate that could have unexpected results on your site."
+msgstr "Это промежуточный релиз Age Gate, который может вызвать непредвиденные результаты на вашем сайте."
+
+#: admin/class-age-gate-update.php:86
+msgid "While it should be safe to update, it is advised that you test locally or on a staging site first."
+msgstr "Несмотря на то, что обновление должно пройти без проблем, рекомендуется сначала протестировать локально или на тестовом сайте."
+
+#: admin/class-age-gate-update.php:85
+msgid "This is a major release of Age Gate that could have unexpected results on your site."
+msgstr "Это значительный релиз Age Gate, который может вызвать непредвиденные результаты на вашем сайте."
+
+#: admin/class-age-gate-update.php:85 admin/class-age-gate-update.php:92
+msgid "WARNING"
+msgstr "ПРЕДУПРЕЖДЕНИЕ"
+
+#: admin/class-age-gate-update.php:79
+msgid "This is a minor release of Age Gate, updating directly should not cause any issues, however do ensure you have backed up any previous version settings.."
+msgstr "Это незначительный релиз Age Gate, обновление не должно вызвать никаких проблем, тем не менее убедитесь, что вы сделали резервное копирование настроек с предыдущей версии."
+
+#: admin/partials/age-gate-admin-restriction.php:175
+msgid "Remember length"
+msgstr "Запомнить пользователя на n дней"
+
+#: admin/partials/age-gate-admin-appearance.php:387
+msgid "Change the page title"
+msgstr "Изменять заголовок страницы"
+
+#: admin/partials/age-gate-admin-messaging.php:53
+msgid "Yes/No sub question"
+msgstr "Вопрос возле кнопок \"Да\"/\"Нет\""
+
+#: admin/class-age-gate-admin.php:182
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: admin/partials/age-gate-admin-restriction.php:210
+msgid "\"Remember me\" will be checked by default"
+msgstr "Чекбокс \"Запомнить меня\" будет выбран по-умолчанию"
+
+#: admin/partials/age-gate-admin-restriction.php:198
+msgid "Auto check remember me"
+msgstr "Автоматически выбирать \"Запомнить меня\""
+
+#: admin/class-age-gate-advanced.php:118 admin/class-age-gate-ajax.php:64
+#: admin/class-age-gate-appearance.php:99
+#: admin/class-age-gate-messaging.php:128
+#: admin/class-age-gate-restriction.php:104
+msgid "You are using the JavaScript implementation of Age Gate, if you have caching enabled ensure you purge it to see your changes."
+msgstr "Вы используете JavaScript-реализацию Age Gate, если у вас включено кэширование, убедитесь, что вы сбросили кэш, чтобы было возможно увидеть изменения."
+
+#: admin/partials/age-gate-admin-advanced.php:28
+msgid "If you have a caching solution, it is best to use a JavaScript triggered version of the age gate as this won’t be adversely affected by the cache. If you don’t have caching, the standard method is recommended."
+msgstr "Если у вас включено кэширование, лучше всего использовать JavaScript-реализацию Age Gate, поскольку данная реализация не подвержена кэшированию. Если же у вас нет кэширования, рекомендуется использовать стандартную реализацию."
+
+#: admin/partials/age-gate-admin-advanced.php:33
+msgid "Use uncachable version"
+msgstr "Использовать некэшируемую версию"
+
+#: admin/partials/age-gate-admin-advanced.php:27
+msgid "Caching"
+msgstr "Кэширование"
+
+#: admin/partials/age-gate-admin-appearance.php:349
+msgid "Viewport meta tag"
+msgstr "Мета-тег \"viewport\""
+
+#: admin/partials/age-gate-admin-messaging.php:169
+msgid "Generic error"
+msgstr "Стандартная ошибка"
+
+#: admin/partials/age-gate-admin-messaging.php:159
+msgid "Under age"
+msgstr "Несовершеннолетний"
+
+#: admin/partials/age-gate-admin-messaging.php:150
+msgid "Invalid inputs"
+msgstr "Неправильные данные"
+
+#: admin/class-age-gate-admin.php:243
+#: admin/partials/language/language-link-select.php:18
+#: admin/partials/language/language-link-select.php:54
+msgid "Remove link"
+msgstr "Удалить ссылку"
+
+#: admin/partials/language/language-link-select.php:16
+#: admin/partials/language/language-link-select.php:52
+msgid "Choose link"
+msgstr "Выбрать ссылку"
+
+#: admin/class-age-gate-admin.php:244
+#: admin/partials/language/language-link-select.php:23
+#: admin/partials/language/language-link-select.php:59
+msgid "Custom"
+msgstr "Произвольно"
+
+#: admin/partials/age-gate-admin-restriction.php:260
+msgid "If someone fails the age test, redirect them to a page or external site rather than showing errors."
+msgstr "Если пользователь проваливает тест, перенаправляет его на страницу или внешний сайт вместо того, чтобы показать ошибки."
+
+#: admin/partials/age-gate-admin-restriction.php:254
+msgid "Redirect failures"
+msgstr "Ошибки переадресации"
+
+#: admin/partials/parts/publish-options.php:17
+#: admin/partials/parts/quick-edit.php:13
+#: admin/partials/taxonomy/add-all.php:25
+#: admin/partials/taxonomy/edit-all.php:62
+msgid "Do not age restrict this content"
+msgstr "Не применять возрастное ограничение к содержимому"
+
+#. Author of the plugin
+msgid "Phil Baker"
+msgstr "Фил Бэйкер"
+
+#. Description of the plugin
+msgid "A customisable age gate to block content from younger people"
+msgstr "Настраиваемые возрастные ограничения для блокирования контента от несовершеннолетних"
+
+#: public/partials/form/sections/select-month.php:15
+msgid "Dec"
+msgstr "Декабрь"
+
+#: public/partials/form/sections/select-month.php:14
+msgid "Nov"
+msgstr "Ноябрь"
+
+#: public/partials/form/sections/select-month.php:13
+msgid "Oct"
+msgstr "Октябрь"
+
+#: public/partials/form/sections/select-month.php:12
+msgid "Sep"
+msgstr "Сентябрь"
+
+#: public/partials/form/sections/select-month.php:11
+msgid "Aug"
+msgstr "Август"
+
+#: public/partials/form/sections/select-month.php:10
+msgid "Jul"
+msgstr "Июль"
+
+#: public/partials/form/sections/select-month.php:9
+msgid "Jun"
+msgstr "Июнь"
+
+#: public/partials/form/sections/select-month.php:8
+msgid "May"
+msgstr "Май"
+
+#: public/partials/form/sections/select-month.php:7
+msgid "Apr"
+msgstr "Апрель"
+
+#: public/partials/form/sections/select-month.php:6
+msgid "Mar"
+msgstr "Март"
+
+#: public/partials/form/sections/select-month.php:5
+msgid "Feb"
+msgstr "Февраль"
+
+#: public/partials/form/sections/select-month.php:4
+msgid "Jan"
+msgstr "Январь"
+
+#: public/partials/form/sections/input-month.php:2
+#: public/partials/form/sections/select-month.php:3
+msgid "MM"
+msgstr "ММ"
+
+#: includes/class-age-gate-activator.php:170
+#: public/partials/form/sections/input-month.php:1
+#: public/partials/form/sections/select-month.php:1
+msgid "Month"
+msgstr "Месяц"
+
+#: public/partials/form/sections/input-day.php:2
+#: public/partials/form/sections/select-day.php:3
+msgid "DD"
+msgstr "ДД"
+
+#: includes/class-age-gate-activator.php:169
+#: public/partials/form/sections/input-day.php:1
+#: public/partials/form/sections/select-day.php:1
+msgid "Day"
+msgstr "День"
+
+#: public/partials/form/inputs.php:10 public/partials/form/selects.php:15
+msgid "YYYY"
+msgstr "ГГГГ"
+
+#: includes/class-age-gate-activator.php:171 public/partials/form/inputs.php:9
+#: public/partials/form/selects.php:9
+msgid "Year"
+msgstr "Год"
+
+#: includes/class-age-gate-activator.php:165 public/partials/form/buttons.php:6
+#: public/partials/form/buttons.php:10
+msgid "No"
+msgstr "Нет"
+
+#: includes/class-age-gate-activator.php:164 public/partials/form/buttons.php:7
+#: public/partials/form/buttons.php:9
+msgid "Yes"
+msgstr "Да"
+
+#: includes/class-age-gate-activator.php:163
+msgid "Are you over %s years of age?"
+msgstr "Вы старше %s лет?"
+
+#: includes/class-age-gate-activator.php:162
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: includes/class-age-gate-activator.php:161
+msgid "An error occurred, please try again"
+msgstr "Произошла ошибка. Пожалуйста, попробуйте снова."
+
+#: includes/class-age-gate-activator.php:160
+msgid "You are not old enough to view this content"
+msgstr "Извините, но Вы слишком молоды для просмотра данной статьи."
+
+#: includes/class-age-gate-activator.php:159
+msgid "Your input was invalid"
+msgstr "Введенные Вами данные не верны!"
+
+#: admin/class-age-gate-admin.php:239
+#: admin/partials/age-gate-admin-appearance.php:55
+#: admin/partials/age-gate-admin-appearance.php:155
+msgid "Remove image"
+msgstr "Удалить изображение"
+
+#: admin/partials/age-gate-admin-messaging.php:138
+msgid "Use this area to add an addtional info or terms of entry."
+msgstr "Используйте эту область, чтобы добавить дополнительную информацию или условия входа."
+
+#: admin/partials/age-gate-admin-restriction.php:45
+msgid "Select"
+msgstr "Выбрать"
+
+#: admin/partials/age-gate-admin-messaging.php:135
+msgid "Additional content"
+msgstr "Дополнительный контент"
+
+#: admin/partials/age-gate-admin-appearance.php:313
+msgid "Use plugin style on the front end"
+msgstr "Использовать стиль плагина на передней панели"
+
+#: admin/partials/age-gate-admin-appearance.php:301
+msgid "Layout"
+msgstr "Макет"
+
+#: admin/partials/age-gate-admin-appearance.php:284
+msgid "Text colour"
+msgstr "Цвет текста"
+
+#: admin/partials/age-gate-admin-appearance.php:240
+msgid "Foreground colour"
+msgstr "Цвет переднего плана"
+
+#: admin/partials/age-gate-admin-appearance.php:127
+msgid "Background image"
+msgstr "Фоновое изображение"
+
+#: admin/partials/age-gate-admin-appearance.php:81
+msgid "Background colour"
+msgstr "Фоновый цвет"
+
+#: admin/partials/age-gate-admin-messaging.php:33
+msgid "Sub headline"
+msgstr "Подзаголовок"
+
+#: admin/partials/age-gate-admin-messaging.php:26
+msgid "Headline"
+msgstr "Заголовок"
+
+#: admin/partials/age-gate-admin-messaging.php:117
+msgid "Submit button text"
+msgstr "Текст submit-кнопки"
+
+#: admin/partials/age-gate-admin-appearance.php:30
+msgid "Logo"
+msgstr "Логотип"
+
+#: admin/partials/age-gate-admin-restriction.php:222
+msgid "Ignore logged in"
+msgstr "Игнорировать залогинившихся"
+
+#: admin/partials/language/language-select.php:23
+#: admin/partials/language/language-select.php:45
+msgid "MM DD YYYY"
+msgstr "ММ/ДД/ГГГГ"
+
+#: admin/partials/language/language-select.php:22
+#: admin/partials/language/language-select.php:44
+msgid "DD MM YYYY"
+msgstr "ДД/ММ/ГГГГ"
+
+#: admin/partials/age-gate-admin-restriction.php:214
+msgid "Date format"
+msgstr "Формат даты"
+
+#: admin/partials/age-gate-admin-restriction.php:171
+msgid "Enable \"remember me\" checkbox"
+msgstr "Активировать чекбокс \"Запомнить меня\""
+
+#: admin/partials/age-gate-admin-restriction.php:159
+msgid "Remember"
+msgstr "Запомнить"
+
+#: admin/partials/age-gate-admin-restriction.php:120
+msgid "Yes/No"
+msgstr "Да/Нет"
+
+#: admin/partials/age-gate-admin-restriction.php:119
+msgid "Dropdown boxes"
+msgstr "Выпадающие пункты"
+
+#: admin/partials/age-gate-admin-restriction.php:118
+msgid "Input fields"
+msgstr "Поля ввода"
+
+#: admin/partials/age-gate-admin-restriction.php:110
+msgid "Validate age using"
+msgstr "Проверить возраст, используя"
+
+#: admin/partials/age-gate-admin-restriction.php:92
+msgid "Restrict registration"
+msgstr "Ограничить регистрацию"
+
+#: admin/partials/age-gate-admin-restriction.php:66
+msgid "Selected Content"
+msgstr "Выбранный контент"
+
+#: admin/partials/age-gate-admin-restriction.php:55
+msgid "All content"
+msgstr "Весь контент"
+
+#: admin/partials/age-gate-admin-restriction.php:42
+msgid "Restrict"
+msgstr "Ограничить"
+
+#: admin/class-age-gate-admin.php:181
+msgid "Settings"
+msgstr "Настройки"
+
+#. Plugin Name of the plugin
+#: admin/class-age-gate-admin.php:100 admin/class-age-gate-admin.php:101
+#: admin/class-age-gate-post-types.php:235
+#: admin/partials/general/admin-header.php:13
+#: public/class-age-gate-public.php:553
+msgid "Age Gate"
+msgstr "Age Gate"
+
+#: admin/partials/age-gate-admin-restriction.php:234
+msgid "Logged in users will not need to provide their age"
+msgstr "Зарегистрированные пользователи не должны подтверждать свой возраст"

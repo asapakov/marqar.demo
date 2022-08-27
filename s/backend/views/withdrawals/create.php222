@@ -1,0 +1,21 @@
+<?php
+
+use yii\helpers\Html;
+use backend\models\Withdrawals;
+
+/* @var $this yii\web\View */
+/* @var $model backend\models\Variants */
+
+$this->title = 'Create';
+//$this->params['breadcrumbs'][] = ['label' => 'Вопросы', 'url' => ['questions/index?survey_id='.Questions::findOne(Yii::$app->request->get('question_id'))->survey_id]];
+$this->params['breadcrumbs'][] = $this->title;
+?>
+<div class="variants-create">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+
+    <?= $this->render('_form', [
+        'model' => $model,
+    ]) ?>
+
+</div>
