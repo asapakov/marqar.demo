@@ -28,11 +28,6 @@
     <br>
     <div class="container mt-5 w-75">
         <div>
-            <p class="mb-0" style="font-family: Roboto; font-weight: 500; font-size: 16px; color: #DAAB31">
-                Инновационные
-                кейсы на
-                помощь
-                решения любых ваших задач</p>
             <p class="mt-1" style="font-family: Roboto; font-weight: 500; font-size: 32px; color: white">Наши
                 продукты
                 (маркет плейс)</p>

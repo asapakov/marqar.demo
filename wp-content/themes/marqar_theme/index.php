@@ -3,7 +3,8 @@ get_header(); ?>
 <style>
     .overlay{
         position: absolute;
-        top: 80%;
+        top: 90%;
+        z-index: 2;
     }
     .hoverblick:hover {
         background-image: url("/wp-content/themes/marqar_theme/assets/images/bg-text.png");
@@ -428,11 +429,9 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="card back-face containerImg">
-                    <img class="rounded w-100 h-100" style="opacity: 15%"
-                         src="/wp-content/themes/marqar_theme/assets/images/casetwo.png">
+                    <div class="rounded w-100 h-100" style="opacity: 90%; background-color: #0B2137"></div>
                     <div class="centered text-start text-dark w-100 px-3"><p class="w-100"
-                                                                             style="font-family: Roboto; font-weight: 400; font-size: 20px">
-                            Интеллект - кейс
+                                                                             style="font-family: Roboto; font-weight: 400; font-size: 20px; color: white"">
                             Международная платформа образования для получения продуктов интеллектуального и физического
                             характера, таких как образовательные онлайн курсы, художественная и учебная литература,
                             канцелярские товары, гаджеты, ноутбуки.</p></div>
@@ -445,11 +444,9 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="card back-face containerImg">
-                    <img class="rounded w-100 h-100" style="opacity: 15%"
-                         src="/wp-content/themes/marqar_theme/assets/images/caseone.png">
+                    <div class="rounded w-100 h-100" style="opacity: 90%; background-color: #0B2137"></div>
                     <div class="centered text-start text-dark w-100 px-3"><p class="w-100"
-                                                                             style="font-family: Roboto; font-weight: 400; font-size: 20px">
-                            Здоровье и красота - кейс
+                                                                             style="font-family: Roboto; font-weight: 400; font-size: 20px; color: white"">
                             Платформа по предоставлению оздоровительных услуг в санаторно-профилакторных лечебных
                             учреждениях. Оздоровительные продукты и оборудование.</p></div>
                 </div>
@@ -461,11 +458,9 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="card back-face containerImg">
-                    <img class="rounded w-100 h-100" style="opacity: 15%"
-                         src="/wp-content/themes/marqar_theme/assets/images/casethree.png">
+                    <div class="rounded w-100 h-100" style="opacity: 90%; background-color: #0B2137"></div>
                     <div class="centered text-start text-dark w-100 px-3"><p class="w-100"
-                                                                             style="font-family: Roboto; font-weight: 400; font-size: 20px">
-                            Туризм - кейс
+                                                                             style="font-family: Roboto; font-weight: 400; font-size: 20px; color: white">
                             Платформа по предоставлению и организации туристических поездок как по Казахстану, так и за
                             рубежом.</p></div>
                 </div>
