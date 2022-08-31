@@ -4,7 +4,6 @@
  * Template Post Type: page, post
  */
 ?>
-
 <style>
     .tabhover {
         font-family: Roboto;
@@ -50,9 +49,8 @@
 
 
 </style>
-
 <?php get_header(); ?>
-<div class="d-none d-sm-block pt-5"
+<div name="webV" class="d-none d-sm-block pt-5"
      style="background-image: url(/wp-content/themes/marqar_theme/assets/images/bgDarkTheme.png); background-size: cover; background-repeat: repeat-y; background-attachment: fixed">
 
     <br><br><br>
@@ -70,14 +68,14 @@
                 <div class="col text-end">
                     <a href=https://marqar.kz/s/frontend/web/site/signup class="btn text-center btnBigHover shadow-lg"
                        style="background-color: #DAAB31; font-family: Roboto; font-size: 24px; font-weight: 400; color: white">
-                        Купить за 68 USD
-                    </a>
-                </div>
+                        <h5 class="text-light mb-0 pb-0"><span class="buy-button-top">32 000</span> тенге</h5>
+                        <p class="buy-button-bottom mb-0">или 68 USD по НБРК</p>
+                    </a></div>
             </div>
 
             <div class="container shadow-lg mt-4 p-0 rounded mt-5 bgChange">
-                <div class="w-100 rounded m-0 p-0"><img class="w-100" style="object-fit: cover"
-                                                        src="<?php the_post_thumbnail(); ?>"</div>
+                <div class="w-100 rounded m-0 p-0"><img class="w-100" style="height: 400px; object-fit: cover"
+                                                        src="<?php the_field('изображение_общее'); ?>"</div>
                 <div class=" text-center d-flex justify-content-around">
                     <div class="tabhover w-25">
                         <button class="tablinks w-100 active1" onclick="openPage(event, 'general')">Общее</button>
@@ -95,90 +93,104 @@
 
 
                 <?php while (have_posts()) :
-                the_post(); ?>
+                    the_post(); ?>
 
-                <div style="display: " id="general" class="tabcontent p-3">
-                    <div class="container text-start">
-                        <?php while (have_rows('общее')) : the_row(); ?>
-                            <?php if (get_sub_field('заголовок')) : ?>
-                                <div style="font-family: Roboto; font-weight: 700; font-size: 28px; color: white"><?= get_sub_field('заголовок') ?></div>
-                            <?php endif; ?>
+                    <div style="display: " id="general" class="tabcontent p-3">
+                        <div class="container text-start">
+                            <?php while (have_rows('общее')) : the_row(); ?>
+                                <?php if (get_sub_field('заголовок')) : ?>
+                                    <div style="font-family: Roboto; font-weight: 700; font-size: 28px; color: white"><?= get_sub_field('заголовок') ?></div>
+                                <?php endif; ?>
 
-                            <?php if (get_sub_field('общий_текст')) : ?>
-                                <div style="color: white; opacity: 0.75; font-family: Roboto; font-weight: 400; font-size: 18px;"
-                                     class="mt-4"><?= get_sub_field('общий_текст') ?>
-                                </div><?php endif; ?>
+                                <?php if (get_sub_field('общий_текст')) : ?>
+                                    <div style="color: white; opacity: 0.75; font-family: Roboto; font-weight: 400; font-size: 18px;"
+                                         class="mt-4"><?= get_sub_field('общий_текст') ?>
+                                    </div><?php endif; ?>
+                            <?php endwhile; ?>
+
+                        </div>
+                    </div>
+                    <!---->
+                    <div style="display: none" id="purpose" class="tabcontent p-3">
+                        <?php while (have_rows('наша_цель')) : the_row(); ?>
+                            <div class="container text-start">
+                                <?php if (get_sub_field('заголовок')) : ?>
+                                    <div style="font-family: Roboto; font-weight: 700; font-size: 28px; color: white">
+                                        <p><?= get_sub_field('заголовок') ?></p>
+                                    </div>
+                                <?php endif; ?>
+                                <?php if (get_sub_field('общая_цель')) : ?>
+                                    <div class="mt-3"
+                                         style="color: white; opacity: 0.75; font-family: Roboto; font-weight: 400; font-size: 18px">
+                                        <?= get_sub_field('общая_цель'); ?>
+                                    </div>
+                                <?php endif; ?>
+                            </div>
                         <?php endwhile; ?>
+                    </div>
+                    <!---->
+                    <div style="display: none" id="teacher" class="tabcontent p-3">
+                        <?php while (have_rows('преподаватель')) : the_row(); ?>
+                            <div class="container text-start">
+                                <?php if (get_sub_field('заголовок')) : ?>
+                                    <div>
+                                        <p style="font-family: Roboto; font-size: 28px; font-weight: 700; color: white"><?= get_sub_field('заголовок') ?></p>
+                                    </div>
+                                <?php endif; ?>
+                                <div class="row">
+                                    <?php if (get_sub_field('фото_преподавателя')) : ?>
+                                        <div class="w-25"><img style="width: 100%" class=" rounded"
+                                                               src=<?= get_sub_field('фото_преподавателя') ?>
+                                                               alt="">
+                                        </div>
+                                    <?php endif; ?>
+                                    <?php if (get_sub_field('информация_преподавателя')) : ?>
+                                        <div class="w-75"><p
+                                                    style="font-family: Roboto; font-size: 18px; font-weight: 400; color: white"><?= get_sub_field('информация_преподавателя') ?></p>
+                                        </div>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+                        <?php endwhile; ?>
+                    </div>
+                    <!---->
+                    <div style="display: none" id="lessons" class="tabcontent p-3">
 
                     </div>
-                </div>
-
-                <div style="display: none" id="purpose" class="tabcontent p-3">
-                    <div class="container text-start">
-                        <div style="font-family: Roboto; font-weight: 700; font-size: 28px; color: white">
-                            Цель нашего курса:
-                        </div>
-                        <div class="mt-3"
-                             style="color: white; opacity: 0.75; font-family: Roboto; font-weight: 400; font-size: 18px">
-                            <?php the_field('наша_цель'); ?>
-                        </div>
-                    </div>
-                </div>
-
-                <div style="display: none" id="teacher" class="tabcontent p-3">
-                    <div class="container text-start">
-                        <?php while (have_rows('преподаватель')) :
-                        the_row(); ?>
-                        <?php if (get_sub_field('заголовок')) : ?>
-                        <div style="font-family: Roboto; font-weight: 700; font-size: 28px; color: white"
-                        " class="mt-4"><?= get_sub_field('заголовок') ?>
-                    </div><?php endif; ?>
-
-                    <?php if (get_sub_field('информация_преподавателя')) : ?>
-                        <div style="color: white; opacity: 0.75; font-family: Roboto; font-weight: 400; font-size: 18px;"
-                             class="mt-4"><?= get_sub_field('информация_преподавателя') ?>
-                        </div><?php endif; ?>
-                    <?php endwhile; ?>
-                </div>
+                    <!---->
+                <?php endwhile; ?>
             </div>
-
-            <div style="display: none" id="lessons" class="tabcontent p-3">
-                <div class="container text-start" style="color: white; opacity: 0.75">
-                    <?php the_field('расписание_занятий'); ?>
-                </div>
-            </div>
-
-            <?php endwhile ?>
-
         </div>
     </div>
+    <?php
+    get_footer();
+    ?>
+    <script>
+        function openPage(evt, pageName) {
+            var i, tabcontent, tablinks;
+
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active1", "");
+            }
+
+            document.getElementById(pageName).style.display = "block";
+            evt.currentTarget.className += " active1";
+        }
+    </script>
 </div>
-<?php
-get_footer();
-?>
-<script>
-    function openPage(evt, pageName) {
-        var i, tabcontent, tablinks;
 
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active1", "");
-        }
-
-        document.getElementById(pageName).style.display = "block";
-        evt.currentTarget.className += " active1";
-    }
-</script>
 
 <!---->
 
-<div class="d-block d-sm-none">
-    <div class="p-2 pb-4" style="background-image: url(/wp-content/themes/marqar_theme/assets/images/bgDark.png);">
+<div name="mobV" class="d-block d-sm-none">
+    <div class="p-2 pb-4"
+         style="background-image: url(/wp-content/themes/marqar_theme/assets/images/bgDarkThemeMob.png);">
         <div class="container text-start pt-3">
             <p class="mb-0" style="font-family: Roboto;font-weight: 400; font-size: 14px; color: #DAAB31">
                 Инновационные

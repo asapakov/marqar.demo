@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url(/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Light.ttf) format('ttf'), url(/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Light.woff) format('woff');
+    font-weight: 100;
+}
+
+body #bingc-phone-sample span {
+    display: none;
+}
+
+body #bingc-phone-sample:after {
+    content: "Не резидентам РК за пределами КЗ - обращаться в Телеграмм";
+}
+
+.feedback {
+    position: relative;
+    z-index: 1;
+    background: -o-linear-gradient(180.65deg, #daa520 0, #dac471 42.71%, #dac471 61.98%, #daa520 100%);
+    background: linear-gradient(269.35deg, #daa520 0, #dac471 42.71%, #dac471 61.98%, #daa520 100%);
+    border-radius: 10px 10px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 7rem;
+}
+
+.feedback__box {
+    margin: 0 auto;
+    padding: 2.3125rem 0.9375rem;
+}
+
+.feedback__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.form-feedback__input {
+    font-size: 1.125rem;
+    line-height: 2.2222222222;
+    padding: 0.625rem 0;
+    padding-left: 1rem;
+    border-radius: 5px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 19.6875rem;
+    border: white;
+}
+
+.form-feedback__submit {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 2;
+    background: #122a5f;
+    color: white;
+    border-radius: 5px;
+    padding: 0.625rem 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 0.5625rem;
+}
+
+.feedback::before {
+    background: url(/wp-content/themes/marqar_theme/assets/images/logo.webp) center/contain no-repeat;
+}
+
+.feedback__title {
+    color: white;
+}
+
+.feedback::before {
+    content: "";
+    width: 10.5rem;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.feedback::after {
+    background: url(/wp-content/themes/marqar_theme/assets/images/tel.webp) center/contain no-repeat;
+}
+
+.feedback::after {
+    content: "";
+    width: 10.5rem;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.telegram-button, .viber-button {
+    position: fixed;
+    right: 13px;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    background: #0088cc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 53px;
+    font-size: 35px;
+    z-index: 9999;
+}
+
+.viber-button {
+    right: 120px !important;
+    background: #fff;
+}
+
+.telegram-button a,
+.viber-button a {
+    color: #fff;
+}
+
+.telegram-button:before,
+.telegram-button:after,
+.viber-button:before,
+.viber-button:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 60%;
+    border: 1px solid #0088cc;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 60%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+    backface-visibility: hidden;
+}
+
+.telegram-button:after,
+.viber-button:after {
+    animation-delay: .5s;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .telegram-button {
+        bottom: 0;
+        right: 0;
+    }
+
+    .viber-button {
+        right: 0 !important;
+        bottom: 80px;
+    }
+}
+
+.viber-button img,
+.telegram-button img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.buy-button-top{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+.buy-button-bottom{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    opacity: 0.54;
+}
+
+.hoverblick:hover {
+    background-image: url("/wp-content/themes/marqar_theme/assets/images/bg-text.png");
+    border-radius: 7px;
+}
+
+.stats-top-text{
+    font-family: Roboto;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.stats-bottom-text{
+    font-family: Roboto;
+    font-size: 22px;
+    color: white;
+}
+
+#izuchenie{
+    position: relative;
+}
+
+#stats{
+    position: absolute;
+    width: 75%;
+    height: auto;
+    right: 0;
+    left: 0;
+    top: -25%;
+    margin: 0 auto;
+}
+
+@media  only screen and (max-width: 767px) {
+    #stats{
+        position: absolute;
+        width: 75%;
+        height: auto;
+        right: 0;
+        left: 0;
+        top: -100%;
+        margin: 0 auto;
+    }
+}
+
+.footer-text{
+    font-family: Gilroy-Light, Light, lighter;
+    color: #d5e2f3;
+    font-size: 18px;
+
+}
+.footer-text-bottom{
+    font-family: Gilroy;
+    color: white;
+    line-height: 130%;
+    font-size: 20px;
+
+}
+
+/*Animation*/
+.text-visible{
+    background-color: #0B2137;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 3px 6px;
+    margin: 0 10px;
+    border-radius: 8px;
+    position: absolute;
+    color: whitesmoke;
+    bottom: 10px;
+    left: 10px;
+}
+
+.text-hidden{
+    width: 500px;
+    height: 220px;
+    position: absolute;
+    background: #0B2137;
+    color: whitesmoke;
+    padding: 25px 10px 50px 10px;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.case{
+    position: relative;
+    height: 220px;
+    width: 500px;
+}
+
+.case img{
+    height: 220px;
+    width: 500px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.case:hover .text-hidden{
+    transform: translateY(-100%);
+    transition-duration: 500ms;
+    z-index: 2;
+    visibility: visible;
+    opacity: 1;
+}
+
+.case-card{
+    position: relative;
+    height: 400px;
+    width: 300px;
+}
+
+.case-card img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.text-visible-card{
+    background-color: #0B2137;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 3px 6px;
+    margin: 0 10px;
+    border-radius: 8px;
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+}
+
+.text-hidden-card {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    background: #0B2137;
+    color: whitesmoke;
+    padding: 25px 10px 50px 10px;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.case-card:hover .text-hidden-card{
+    transform: translateY(-100%);
+    transition-duration: 750ms;
+    z-index: 2;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.stats-top-text-mob{
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.stats-bottom-text-mob{
+    font-family: Roboto;
+    font-size: 14px;
+    color: white;
+}
+
+#stats-mob{
+    background: linear-gradient(269.35deg, #DAA520 0%, #DAC471 42.71%, #DAC471 61.98%, #DAA520 100%);
+    height: 50px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.card-text-mob{
+    padding: 10px 10px;
+    width: 75%;
+    border-radius: 8px;
+    background-color: rgba(60, 60, 60, 0.8);
+    margin-bottom: 25px;
+}
+
+.card-text-mob h5{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+}
+
+.card-text-mob p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.carousel-caption{
+    right: 13%;
+    left: 13%;
+}
+
+.carousel-mob-text{
+    padding: 10px 10px;
+    width: 75%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 25px;
+}
+
+.carousel-mob-text h5{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+}
+
+.carousel-mob-text p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    opacity: 0.65;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #a0aec9;;
+}
+
+.social-media-footer a{
+    text-decoration: none;
+    color: #a0aec9;;
+}
+
+.social-media a:hover{
+    color: #DAAB31;
+}
+
+.social-media-footer a:hover{
+    color: #DAAB31;
+}
+
+.footer-text-main-mob{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+
+.footer-text-mob{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #a0aec9;
+}

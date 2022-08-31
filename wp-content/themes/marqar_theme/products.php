@@ -19,6 +19,8 @@
     $do_not_show_stickies = 1; // 0 to show stickies
     $args = array(
         'category__in' => $cat,
+'orderby' => 'meta_value_num date',
+        'order' => 'ASC',
         'showposts' => $showposts,
         'caller_get_posts' => $do_not_show_stickies
     );
@@ -28,9 +30,8 @@
     <br>
     <div class="container mt-5 w-75">
         <div>
-            <p class="mt-1" style="font-family: Roboto; font-weight: 500; font-size: 32px; color: white">Наши
-                продукты
-                (маркет плейс)</p>
+                        <p class="mt-1" style="font-family: Roboto; font-weight: 500; font-size: 32px; color: white">Наши
+                продукты</p>
         </div>
     </div>
     <br>
@@ -96,8 +97,8 @@
 </div>
 <!---->
 
-<div name="mobV" class="d-block d-sm-none pb-3"
-     style="background-image: url(/wp-content/themes/marqar_theme/assets/images/bgDark.png); background-repeat: repeat-y; height: 100%">
+<div name="mobV" class="d-block d-sm-none"
+     style="background-image: url(/wp-content/themes/marqar_theme/assets/images/bgDarkThemeMob.png); background-repeat: repeat-y; background-size: contain">
     <div class="text-start ms-4 pt-3">
         <p class="mb-0" style="font-family: Roboto;font-weight: 400; font-size: 14px; color: #DAAB31">
             Инновационные
@@ -106,14 +107,14 @@
             продукты</p>
     </div>
     <div class="ms-4 d-flex">
-        <a class="btn" href="/наши-продукты/" style="color: white; background-color: #DAAB31">Новинки</a>
+        <a class="btn" href="/наши-продукты/" style="color: white; background-color: #DAAB31">Интеллект</a>
         <a href="/наши-продукты/" class="ms-3 rounded btn"
            style="color: #DAAB31; background: none; border: 1px solid #DAAB31;">
-            Интеллект
+            Здоровье
         </a>
         <button disabled class="ms-3 rounded"
                 style="color: #DAAB31; background: none; border: 1px solid #DAAB31">
-            Здоровье
+            Туризм
         </button>
     </div>
 
@@ -164,7 +165,48 @@
         <?php get_search_form(); ?>
 
     <?php endif; ?>
+    <div id="foot" class="container text-light py-3" style="background-color: #0B2137;">
+        <div class="container">
+            <div class="text-start footer-text-main-mob"><p>Мы в социальных сетях:</p></div>
+            <div name="social-media" class="w-100 social-media">
+                <a href=""><i class="fa fa-instagram fa-2x"></i></a>
+                <a href=""><i class="fa fa-youtube-play fa-2x"></i></a>
+                <a href=""><i class="fa fa-telegram fa-2x"></i></a>
+            </div>
+            <div class="text-start mt-4 footer-text-main-mob"><p>Контакты:</p></div>
+            <div name="contacts" class="footer-text-mob">
+                <div><p class="mb-0">050021 Алматы, Бульвар Бухар Жырау 2</p></div>
+                <div><p class="mb-0">info@marqar.kz</p></div>
+                <div><p class="mb-0">+7 778 326 15 25</p></div>
+            </div>
+        </div>
+    </div>
 
+    <!-- telegram -->
+    <a href="https://t.me/MARQAR_FAQBOT" target="_blank" title="Написать в Telegram" rel="noopener noreferrer">
+        <div class="telegram-button">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/tg.png' ?>">
+        </div>
+    </a>
+
+    <!-- viber -->
+    <a href="viber://chat?number=87770821922" target="_blank" title="Позвонить через viber" rel="noopener noreferrer">
+        <div class="viber-button">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/viber.png' ?>">
+        </div>
+    </a>
+
+    <script name="call-back" type="text/javascript">
+        (function (d, w, s) {
+            var widgetHash = 'si0c6zmamm8cnuk58kr9', gcw = d.createElement(s);
+            gcw.type = 'text/javascript';
+            gcw.async = true;
+            gcw.src = '//widgets.binotel.com/getcall/widgets/' + widgetHash + '.js';
+            var sn = d.getElementsByTagName(s)[0];
+            sn.parentNode.insertBefore(gcw, sn);
+        })(document, window, 'script');
+    </script>
+</div>
     <!---->
 </div>
 <!---->

@@ -11,27 +11,56 @@
  */
 
 ?>
-<footer style=" margin-top: 10rem">
-    <div class="d-flex align-items-center mt-auto"
-         style="background-image: url(/wp-content/themes/marqar_theme/assets/images/rectangle-7-300x113.png); height: 100px">
-        <div class="w-100 d-flex justify-content-evenly">
-            <div><img src=/wp-content/themes/marqar_theme/assets/images/footer-marqar.png></div>
+
+
+<section class="d-flex page__feedback feedback">
+    <div class="feedback__box">
+        <h2 class="feedback__title">Свяжитесь с нами</h2>
+        <form action="" class="feedback__form form-feedback">
+            <input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя"
+                   class="form-feedback__input input" data-placeholder="Имя">
+            <input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Номер телефона"
+                   class="form-feedback__input input" data-placeholder="Номер телефона">
+            <button type="submit" class="form-feedback__submit">Отправить</button>
+        </form>
+    </div>
+</section>
+
+
+<footer>
+
+    <div class="py-4"
+         style="background-image: url(/wp-content/themes/marqar_theme/assets/images/rectangle-7-300x113.png);">
+        <div class="d-flex">
+            <div class="col-2 text-center"><img src="/wp-content/themes/marqar_theme/assets/images/logo-3.png"></div>
+            <div class="col-10 text-start"><p class="footer-text">Компания MARQAR LLP ожидает от всех участников проекта
+                    поддержания принципов справедливости,
+                    честности и конфиденциальности при заключении сделок и иной деловой активноcти.</p></div>
+        </div>
+        <div class="d-flex text-light justify-content-around mt-4">
+            <div name="social-media" class="social-media-footer d-flex justify-content-between col-2 ms-5">
+                <div><a href=""><i class="fa fa-instagram fa-2x"></i></a></div>
+                <div><a href=""><i class="fa fa-youtube-play fa-2x"></i></a></div>
+                <div><a href=""><i class="fa fa-telegram fa-2x"></i></a></div>
+            </div>
             <div class="d-flex my-auto">
-                <img style="height: 21px" src=/wp-content/themes/marqar_theme/assets/images/footer-map-icon.png>
-                <p style="font-family: Roboto; font-size: 16px; font-weight: 400; color: white">050021 Алматы, Бульвар
+                <img style="height: 22px" src=/wp-content/themes/marqar_theme/assets/images/footer-map-icon.png>
+                <p class="footer-text-bottom ms-2">050021 Алматы, Бульвар
                     Бухар Жырау 2</p>
             </div>
             <div class="d-flex">
-                <img style="height: 21px" src=/wp-content/themes/marqar_theme/assets/images/footer-mail-icon.png>
-                <p style="font-family: Roboto; font-size: 16px; font-weight: 400; color: white">info@marqar.kz</p>
+                <img style="height: 22px" src=/wp-content/themes/marqar_theme/assets/images/footer-mail-icon.png>
+                <p class="footer-text-bottom ms-2">info@marqar.kz</p>
             </div>
             <div class="d-flex">
-                <img style="height: 21px" src="/wp-content/themes/marqar_theme/assets/images/footer-phone-icon.png">
-                <p style="font-family: Roboto; font-size: 16px; font-weight: 400; color: white">+7 778 326 15
+                <img style="height: 22px" src="/wp-content/themes/marqar_theme/assets/images/footer-phone-icon.png">
+                <p class="footer-text-bottom ms-2">+7 778 326 15
                     25</p>
             </div>
         </div>
     </div>
+    </div>
+
 </footer>
 
 <!-- binotel widget -->
@@ -45,102 +74,6 @@
         sn.parentNode.insertBefore(gcw, sn);
     })(document, window, 'script');
 </script>
-
-
-<style>
-    body #bingc-phone-sample span {
-        display: none;
-    }
-
-    body #bingc-phone-sample:after {
-        content: "Не резидентам РК за пределами КЗ - обращаться в Телеграмм";
-    }
-
-    .telegram-button, .viber-button {
-        position: fixed;
-        right: 13px;
-        bottom: 5%;
-        transform: translate(-50%, -50%);
-        background: #0088cc;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        color: #fff;
-        text-align: center;
-        line-height: 53px;
-        font-size: 35px;
-        z-index: 9999;
-    }
-
-    .viber-button {
-        right: 120px !important;
-        background: #fff;
-    }
-
-    .telegram-button a,
-    .viber-button a {
-        color: #fff;
-    }
-
-    .telegram-button:before,
-    .telegram-button:after,
-    .viber-button:before,
-    .viber-button:after {
-        content: " ";
-        display: block;
-        position: absolute;
-        border: 60%;
-        border: 1px solid #0088cc;
-        left: -20px;
-        right: -20px;
-        top: -20px;
-        bottom: -20px;
-        border-radius: 60%;
-        animation: animate 1.5s linear infinite;
-        opacity: 0;
-        backface-visibility: hidden;
-    }
-
-    .telegram-button:after,
-    .viber-button:after {
-        animation-delay: .5s;
-    }
-
-    @keyframes animate {
-        0% {
-            transform: scale(0.5);
-            opacity: 0;
-        }
-        50% {
-            opacity: 1;
-        }
-        100% {
-            transform: scale(1.2);
-            opacity: 0;
-        }
-    }
-
-    @media (max-width: 425px) {
-        .telegram-button {
-            bottom: 0;
-            right: 0;
-        }
-
-        .viber-button {
-            right: 0 !important;
-            bottom: 120px;
-        }
-    }
-
-    .viber-button img,
-    .telegram-button img {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-    }
-</style>
 
 <!-- telegram -->
 <a href="https://t.me/MARQAR_FAQBOT" target="_blank" title="Написать в Telegram" rel="noopener noreferrer">
