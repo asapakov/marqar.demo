@@ -11,10 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94aebd06-5b14-497f-9733-bb0cffa60097" name="Default Changelist" comment="Second commit">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gotham-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gotham-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/byt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/dosug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/o-produkte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/preimush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/razvitie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/servis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/vozmojn.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +135,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -140,8 +147,8 @@
       <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme\assets\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme\assets\fonts" />
       <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme\assets\images" />
+      <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme\assets\fonts" />
       <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme\templates" />
       <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme" />
     </key>
@@ -166,7 +173,7 @@
       <workItem from="1661671578117" duration="1000" />
       <workItem from="1661672513537" duration="15060000" />
       <workItem from="1661696208782" duration="40021000" />
-      <workItem from="1661854573938" duration="32536000" />
+      <workItem from="1661854573938" duration="38313000" />
     </task>
     <task id="LOCAL-00001" summary="Carousel added">
       <created>1661327774114</created>
@@ -210,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661933825597</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Second commit">
+      <created>1661936612826</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661936612826</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

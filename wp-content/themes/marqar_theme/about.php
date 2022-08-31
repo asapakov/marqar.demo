@@ -91,7 +91,7 @@
                 </div>
                 <hr class="m-0 p-0">
                 <div style="margin-top: 28px">
-                    <p style="font-family: Roboto; font-weight: 400; font-size: 18px; color: #a0aec9">
+            <p style="font-family: Roboto; font-weight: 400; font-size: 18px; color: #a0aec9">
                         MARQAR —
                         это Казахстанская компания,
                         деятельностью которой является предоставление товаров и услуг на собственной платформе с

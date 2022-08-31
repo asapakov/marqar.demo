@@ -45,7 +45,7 @@ get_header(); ?>
         <!---->
         <div class="container d-flex justify-content-evenly mt-4">
             <div class="case-card">
-                <img src="/wp-content/themes/marqar_theme/assets/images/card-main-1.jpeg" alt="card one">
+                <img src="/wp-content/themes/marqar_theme/assets/images/o-produkte.png" alt="card one">
                 <div class="bottom-left text-visible-card">О продукте</div>
                 <div class="text-hidden-card text-light"><h3>О продукте</h3>
                     <div class="d-flex"><p style="color: #a0aec9">Знание нескольких языков открывает для каждого новые
@@ -59,7 +59,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="case-card">
-                <img src="/wp-content/themes/marqar_theme/assets/images/card-main-2.jpeg" alt="card one">
+                <img src="/wp-content/themes/marqar_theme/assets/images/preimush.png" alt="card one">
                 <div class="bottom-left text-visible-card">Преимущество</div>
                 <div class="text-hidden-card text-light"><h3>Преимущество</h3>
                     <div class="d-flex"><p style="color: #a0aec9">Каждый участник проекта будет иметь возможность
@@ -72,7 +72,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="case-card">
-                <img src="/wp-content/themes/marqar_theme/assets/images/card-main-3.jpeg" alt="card one">
+                <img src="/wp-content/themes/marqar_theme/assets/images/vozmojn.png" alt="card one">
                 <div class="bottom-left text-visible-card">Возможности</div>
                 <div class="text-hidden-card text-light"><h3>Возможности</h3>
                     <div class="d-flex"><p style="color: #a0aec9">Мы уверены в своем продукте, его эффективности, его
@@ -85,7 +85,8 @@ get_header(); ?>
         </div>
         <div class="text-center mt-5 mb-0">
             <a href="/наши-продукты/" class="btn"
-               style="background-color: #DAAB31; font-family: Roboto; font-weight: 400; font-size: 24px; color: white">Узнать больше</a>
+               style="background-color: #DAAB31; font-family: Roboto; font-weight: 400; font-size: 24px; color: white">Узнать
+                больше</a>
         </div>
         <!---->
     </div>
@@ -238,8 +239,9 @@ get_header(); ?>
         </div>
         <!---->
         <div class="container">
+
             <div class="row justify-content-center">
-                <div class="case me-3">
+                <div id="case-intel" class="case me-3">
                     <a href="https://marqar.kz/s/frontend/web/site/signup">
                         <img src="/wp-content/themes/marqar_theme/assets/images/case-1.png" alt="case one">
                         <div class="bottom-left text-visible">Интеллект</div>
@@ -259,7 +261,7 @@ get_header(); ?>
                         </div>
                     </a>
                 </div>
-                <div class="case ms-3">
+                <div id="case-zdorov" class="case ms-3">
                     <a href="https://marqar.kz/s/frontend/web/site/signup">
                         <img src="/wp-content/themes/marqar_theme/assets/images/case-2.jpg" alt="case two">
                         <div class="bottom-left text-visible">Здоровье и красота</div>
@@ -272,8 +274,9 @@ get_header(); ?>
                     </a>
                 </div>
             </div>
+
             <div class="row justify-content-center mt-5">
-                <div class="case me-3">
+                <div id="case-turizm" class="case me-3">
                     <a href="https://marqar.kz/s/frontend/web/site/signup">
                         <img src="/wp-content/themes/marqar_theme/assets/images/case-3.jpeg" alt="case three">
                         <div class="bottom-left text-visible">Туризм</div>
@@ -285,7 +288,7 @@ get_header(); ?>
                         </div>
                     </a>
                 </div>
-                <div class="case ms-3">
+                <div id="case-food" class="case ms-3">
                     <a href="https://marqar.kz/s/frontend/web/site/signup">
                         <img src="/wp-content/themes/marqar_theme/assets/images/case-4.jpg" alt="case four">
                         <div class="bottom-left text-visible">Food-box</div>
@@ -297,13 +300,76 @@ get_header(); ?>
                     </a>
                 </div>
             </div>
+
+            <div id="showCasesBtn" class="text-center mt-5">
+                <button onclick="showAllCases()" class="btn"
+                        style="background-color: #DAAB31; font-family: Roboto; font-weight: 400; font-size: 24px; color: white">
+                    Посмотреть все кейсы
+                </button>
+            </div>
+
+            <div class="row justify-content-center mt-5 hidden-cases">
+                <div id="case-byt" class="case me-3">
+                    <a href="https://marqar.kz/s/frontend/web/site/signup">
+                        <img src="/wp-content/themes/marqar_theme/assets/images/byt.png" alt="case three">
+                        <div class="bottom-left text-visible">Быт</div>
+                        <div class="text-hidden"><h3>Быт кейс <span style="opacity: 0.54; font-size: 18px">(в разработке)</span>
+                            </h3>
+                            <p style="color: #a0aec9">Платформа, объединяющая в себе сеть магазинов одежды и обуви
+                                хорошего качества, магазинов бытовых товаров и электротехники.</p>
+                        </div>
+                    </a>
+                </div>
+                <div id="case-dosug" class="case ms-3">
+                    <a href="https://marqar.kz/s/frontend/web/site/signup">
+                        <img src="/wp-content/themes/marqar_theme/assets/images/dosug.png" alt="case four">
+                        <div class="bottom-left text-visible">Досуг</div>
+                        <div class="text-hidden"><h3>Досуг кейс <span style="opacity: 0.54; font-size: 18px">(в разработке)</span>
+                            </h3>
+                            <p style="color: #a0aec9">Платформа, объединяющая в себе заведения общественного питания с
+                                хорошим сервисом, и развлекательные центры.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5 hidden-cases">
+                <div id="case-servis" class="case me-3">
+                    <a href="https://marqar.kz/s/frontend/web/site/signup">
+                        <img src="/wp-content/themes/marqar_theme/assets/images/servis.png" alt="case three">
+                        <div class="bottom-left text-visible">Сервис</div>
+                        <div class="text-hidden"><h3>Сервис кейс <span style="opacity: 0.54; font-size: 18px">(в разработке)</span>
+                            </h3>
+                            <p style="color: #a0aec9">Платформа, объединяющая в себе бытовые услуги и службы такси.</p>
+                        </div>
+                    </a>
+                </div>
+                <div id="case-razvitie" class="case ms-3">
+                    <a href="https://marqar.kz/s/frontend/web/site/signup">
+                        <img src="/wp-content/themes/marqar_theme/assets/images/razvitie.png" alt="case four">
+                        <div class="bottom-left text-visible">Развитие</div>
+                        <div class="text-hidden"><h3>Развитие кейс <span style="opacity: 0.54; font-size: 18px">(в разработке)</span>
+                            </h3>
+                            <p style="color: #a0aec9">Продуктовая корзина. Доставка продуктов питания повседневного
+                                потребления с высоким качеством в необходимом количестве и в удобное для вас время.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
         <!---->
-        <div class="text-center mt-5">
-            <a href=https://marqar.kz/s/frontend/web/site/signup class="btn"
-               style="background-color: #DAAB31; font-family: Roboto; font-weight: 400; font-size: 24px; color: white">Подписаться</a>
-        </div>
     </div>
+    <script>
+        function showAllCases() {
+            let btn = document.getElementById("showCasesBtn");
+            btn.style.display += " none";
+            let cases = document.getElementsByClassName("hidden-cases");
+            for (let i = 0; i<cases.length; i++) {
+                cases[i].style.display += " flex";
+
+            }
+        }
+    </script>
 
     <?php
     get_footer();

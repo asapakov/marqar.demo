@@ -4,6 +4,7 @@
  * Template Post Type: page, post
  */
 ?>
+
 <style>
     .tabhover {
         font-family: Roboto;
@@ -49,16 +50,14 @@
 
 
 </style>
+
 <?php get_header(); ?>
-<div name="webV" class="d-none d-sm-block pt-5"
+<div class="d-none d-sm-block pt-5"
      style="background-image: url(/wp-content/themes/marqar_theme/assets/images/bgDarkTheme.png); background-size: cover; background-repeat: repeat-y; background-attachment: fixed">
 
     <br><br><br>
     <div class="container text-start w-75" style="margin-bottom: 200px">
         <div class="container">
-            <p style="font-family: Roboto; font-weight: 500; font-size: 16px; color: #DAAB31">Инновационные
-                кейсы на
-                помощь решения любых ваших задач</p>
             <div class="d-flex row ">
                 <div class="col-sm-8 me-auto"><a href="/наши-продукты/"
                                                  style="font-family: Roboto; font-weight: 400; font-size: 32px; color: white; opacity: 0.75; text-decoration: none">Наши
@@ -68,9 +67,8 @@
                 <div class="col text-end">
                     <a href=https://marqar.kz/s/frontend/web/site/signup class="btn text-center btnBigHover shadow-lg"
                        style="background-color: #DAAB31; font-family: Roboto; font-size: 24px; font-weight: 400; color: white">
-                        <h5 class="text-light mb-0 pb-0"><span class="buy-button-top">32 000</span> тенге</h5>
-                        <p class="buy-button-bottom mb-0">или 68 USD по НБРК</p>
-                    </a></div>
+                        <h5 class="text-light mb-0 pb-0"><span class="buy-button-top">32 000</span> тенге</h5><p class="buy-button-bottom mb-0">или 68 USD по НБРК</p>
+                    </a>                </div>
             </div>
 
             <div class="container shadow-lg mt-4 p-0 rounded mt-5 bgChange">
@@ -162,35 +160,34 @@
             </div>
         </div>
     </div>
-    <?php
-    get_footer();
-    ?>
-    <script>
-        function openPage(evt, pageName) {
-            var i, tabcontent, tablinks;
-
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active1", "");
-            }
-
-            document.getElementById(pageName).style.display = "block";
-            evt.currentTarget.className += " active1";
-        }
-    </script>
 </div>
+<?php
+get_footer();
+?>
+<script>
+    function openPage(evt, pageName) {
+        var i, tabcontent, tablinks;
+
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active1", "");
+        }
+
+        document.getElementById(pageName).style.display = "block";
+        evt.currentTarget.className += " active1";
+    }
+</script>
 
 
 <!---->
 
-<div name="mobV" class="d-block d-sm-none">
-    <div class="p-2 pb-4"
-         style="background-image: url(/wp-content/themes/marqar_theme/assets/images/bgDarkThemeMob.png);">
+<div class="d-block d-sm-none">
+    <div class="p-2 pb-4" style="background-image: url(/wp-content/themes/marqar_theme/assets/images/bgDark.png);">
         <div class="container text-start pt-3">
             <p class="mb-0" style="font-family: Roboto;font-weight: 400; font-size: 14px; color: #DAAB31">
                 Инновационные

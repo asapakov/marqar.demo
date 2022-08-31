@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
 @font-face {
     font-family: 'Gilroy-Light';
     src: url(/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Light.ttf) format('ttf'), url(/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Light.woff) format('woff');
     font-weight: 100;
 }
 
-@font-face {
-    font-family: Gotham;
-    font-display: swap;
-    src: url(/wp-content/themes/marqar_theme/assets/fonts/Gotham-Bold.ttf) format("ttf");
-    font-weight: 700;
-    font-style: normal;
-}
+
 
 body #bingc-phone-sample span {
     display: none;
@@ -191,14 +186,14 @@ body #bingc-phone-sample:after {
     height: 100%;
 }
 
-.buy-button-top{
+.buy-button-top {
     font-family: Roboto;
     font-weight: 500;
     font-size: 22px;
     color: whitesmoke;
 }
 
-.buy-button-bottom{
+.buy-button-bottom {
     font-family: Roboto;
     font-weight: 400;
     font-size: 18px;
@@ -211,29 +206,29 @@ body #bingc-phone-sample:after {
     border-radius: 7px;
 }
 
-.stats-top-text{
+.stats-top-text {
     font-family: Gotham-Bold, sans-serif;
-    font-size: clamp(1.375rem ,.7715517241rem + 3.0172413793vw ,3.125rem);
+    font-size: 50px;
     color: white;
     font-weight: normal;
     margin-bottom: 0px;
     line-height: 130%;
 }
 
-.stats-bottom-text{
+.stats-bottom-text {
     font-family: ProximaNova, sans-serif;
-    font-size: clamp(.75rem ,.4698275862rem + 1.400862069vw ,1.5625rem);;
+    font-size: 22px;
     color: white;
     letter-spacing: .02em;
     line-height: 130%;
     word-wrap: break-word;
 }
 
-#izuchenie{
+#izuchenie {
     position: relative;
 }
 
-#stats{
+#stats {
     position: absolute;
     width: 85%;
     right: 0;
@@ -242,12 +237,12 @@ body #bingc-phone-sample:after {
     margin: 0 auto;
 }
 
-#stats p{
+#stats p {
     margin-bottom: 0;
 }
 
-@media  only screen and (max-width: 767px) {
-    #stats{
+@media only screen and (max-width: 767px) {
+    #stats {
         position: absolute;
         width: 75%;
         height: auto;
@@ -258,13 +253,14 @@ body #bingc-phone-sample:after {
     }
 }
 
-.footer-text{
+.footer-text {
     font-family: Gilroy-Light, Light, lighter;
     color: #d5e2f3;
     font-size: 18px;
 
 }
-.footer-text-bottom{
+
+.footer-text-bottom {
     font-family: Gilroy;
     color: white;
     line-height: 130%;
@@ -273,7 +269,7 @@ body #bingc-phone-sample:after {
 }
 
 /*Animation*/
-.text-visible{
+.text-visible {
     background-color: #0B2137;
     font-family: Roboto;
     font-weight: 500;
@@ -287,7 +283,7 @@ body #bingc-phone-sample:after {
     left: 10px;
 }
 
-.text-hidden{
+.text-hidden {
     width: 500px;
     height: 220px;
     position: absolute;
@@ -299,13 +295,13 @@ body #bingc-phone-sample:after {
     opacity: 0;
 }
 
-.case{
+.case {
     position: relative;
     height: 220px;
     width: 500px;
 }
 
-.case img{
+.case img {
     height: 220px;
     width: 500px;
     object-fit: cover;
@@ -314,7 +310,7 @@ body #bingc-phone-sample:after {
     overflow: hidden;
 }
 
-.case:hover .text-hidden{
+.case:hover .text-hidden {
     transform: translateY(-100%);
     transition-duration: 500ms;
     z-index: 2;
@@ -322,13 +318,13 @@ body #bingc-phone-sample:after {
     opacity: 1;
 }
 
-.case-card{
+.case-card {
     position: relative;
     height: 400px;
     width: 300px;
 }
 
-.case-card img{
+.case-card img {
     height: 400px;
     width: 300px;
     object-fit: cover;
@@ -337,7 +333,7 @@ body #bingc-phone-sample:after {
     overflow: hidden;
 }
 
-.text-visible-card{
+.text-visible-card {
     background-color: #0B2137;
     font-family: Roboto;
     font-weight: 500;
@@ -363,7 +359,7 @@ body #bingc-phone-sample:after {
     opacity: 0;
 }
 
-.case-card:hover .text-hidden-card{
+.case-card:hover .text-hidden-card {
     transform: translateY(-100%);
     transition-duration: 750ms;
     z-index: 2;
@@ -372,20 +368,20 @@ body #bingc-phone-sample:after {
 }
 
 
-.stats-top-text-mob{
+.stats-top-text-mob {
     font-family: Roboto;
     font-size: 20px;
     color: white;
     margin-bottom: 0px;
 }
 
-.stats-bottom-text-mob{
+.stats-bottom-text-mob {
     font-family: Roboto;
     font-size: 14px;
     color: white;
 }
 
-#stats-mob{
+#stats-mob {
     background: linear-gradient(269.35deg, #DAA520 0%, #DAC471 42.71%, #DAC471 61.98%, #DAA520 100%);
     height: 50px;
     width: 100%;
@@ -394,7 +390,7 @@ body #bingc-phone-sample:after {
     margin: 0 auto;
 }
 
-.card-text-mob{
+.card-text-mob {
     padding: 10px 10px;
     width: 75%;
     border-radius: 8px;
@@ -402,26 +398,26 @@ body #bingc-phone-sample:after {
     margin-bottom: 25px;
 }
 
-.card-text-mob h5{
+.card-text-mob h5 {
     font-family: Roboto;
     font-weight: 500;
     font-size: 22px;
     color: white;
 }
 
-.card-text-mob p{
+.card-text-mob p {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     color: white;
 }
 
-.carousel-caption{
+.carousel-caption {
     right: 13%;
     left: 13%;
 }
 
-.carousel-mob-text{
+.carousel-mob-text {
     padding: 10px 10px;
     width: 75%;
     border-radius: 8px;
@@ -429,14 +425,14 @@ body #bingc-phone-sample:after {
     margin-bottom: 25px;
 }
 
-.carousel-mob-text h5{
+.carousel-mob-text h5 {
     font-family: Roboto;
     font-weight: 500;
     font-size: 22px;
     color: white;
 }
 
-.carousel-mob-text p{
+.carousel-mob-text p {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
@@ -444,39 +440,43 @@ body #bingc-phone-sample:after {
     opacity: 0.65;
 }
 
-.social-media{
+.social-media {
     display: flex;
     justify-content: space-around;
 }
 
-.social-media a{
+.social-media a {
     text-decoration: none;
     color: #a0aec9;;
 }
 
-.social-media-footer a{
+.social-media-footer a {
     text-decoration: none;
     color: #a0aec9;;
 }
 
-.social-media a:hover{
+.social-media a:hover {
     color: #DAAB31;
 }
 
-.social-media-footer a:hover{
+.social-media-footer a:hover {
     color: #DAAB31;
 }
 
-.footer-text-main-mob{
+.footer-text-main-mob {
     font-family: Roboto;
     font-weight: 500;
     font-size: 24px;
     color: white;
 }
 
-.footer-text-mob{
+.footer-text-mob {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     color: #a0aec9;
+}
+
+.hidden-cases{
+    display: none;
 }
