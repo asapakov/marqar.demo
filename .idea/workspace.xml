@@ -11,111 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94aebd06-5b14-497f-9733-bb0cffa60097" name="Default Changelist" comment="Second commit">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-BlackItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-BlackItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-BoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-ExtraBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-ExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-ExtraBoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-ExtraBoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Heavy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Heavy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Heavy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-HeavyItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-HeavyItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-HeavyItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-LightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-LightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Medium - Copy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-MediumItalic - Copy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-MediumItalic - Copy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-MediumItalic - Copy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-MediumItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-MediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Regular - Copy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Regular - Copy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Regular - Copy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-RegularItalic - Copy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-RegularItalic - Copy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-RegularItalic - Copy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-RegularItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-RegularItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-RegularItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-SemiBold - Copy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-SemiBold - Copy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-SemiBold - Copy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-SemiBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-SemiBoldItalic - Copy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-SemiBoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-SemiBoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Thin - Copy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-ThinItalic - Copy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-ThinItalic - Copy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-ThinItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-ThinItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-UltraLight - Copy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-UltraLight - Copy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-UltraLight - Copy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-UltraLight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-UltraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-UltraLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-UltraLightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-UltraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gilroy/Gilroy-UltraLightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/bgDarkThemeMob.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/bgPart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/card-main-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/card-main-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/card-main-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/case-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/case-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/case-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/case-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/logo-master.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/teacher.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gotham-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts/Gotham-Medium.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/bgDarkTheme.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/bgDarkTheme.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/images/bgLight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/marqar_theme/templates/product-template.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marqar_theme/templates/product-template.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +128,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Рабочий стол/tima" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/marqar_theme/assets/fonts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -240,8 +140,8 @@
       <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme\assets\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme\assets\images" />
       <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme\assets\fonts" />
+      <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme\assets\images" />
       <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme\templates" />
       <recent name="C:\OpenServer\domains\marqar.demo\wp-content\themes\marqar_theme" />
     </key>
@@ -266,7 +166,7 @@
       <workItem from="1661671578117" duration="1000" />
       <workItem from="1661672513537" duration="15060000" />
       <workItem from="1661696208782" duration="40021000" />
-      <workItem from="1661854573938" duration="29772000" />
+      <workItem from="1661854573938" duration="32536000" />
     </task>
     <task id="LOCAL-00001" summary="Carousel added">
       <created>1661327774114</created>
@@ -303,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661581620671</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Second commit">
+      <created>1661933825597</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661933825597</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,10 +241,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="654" y="242" width="482" height="331" key="#File_Watchers/0.0.1536.816@0.0.1536.816" timestamp="1661682528304" />
-    <state x="514" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1661762567576">
+    <state x="514" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1661935380171">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="514" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1661762567576" />
+    <state x="514" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1661935380171" />
     <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1661683739360">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -354,10 +261,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1661518051404" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1661581647209">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1661933830954">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1661581647209" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1661933830954" />
     <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1661922930652">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

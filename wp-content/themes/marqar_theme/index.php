@@ -1,9 +1,5 @@
 <?php
 get_header(); ?>
-<style>
-
-
-</style>
 <div name="web" class="d-none d-sm-block"
      style="background-image: url(/wp-content/themes/marqar_theme/assets/images/bgDarkTheme.png); background-size: contain; background-repeat: repeat-y">
 
@@ -20,7 +16,7 @@ get_header(); ?>
                 <p class="stats-bottom-text">
                     Кейсов</p>
             </div>
-            <div class="my-auto"><img class="h-75" src="/wp-content/themes/marqar_theme/assets/images/lineforstats.png">
+            <div class="my-auto"><img src="/wp-content/themes/marqar_theme/assets/images/lineforstats.png">
             </div>
             <div class="text-center h-100">
                 <p class="stats-top-text"><b>28 000+</b></p>

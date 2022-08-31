@@ -5,6 +5,14 @@
     font-weight: 100;
 }
 
+@font-face {
+    font-family: Gotham;
+    font-display: swap;
+    src: url(/wp-content/themes/marqar_theme/assets/fonts/Gotham-Bold.ttf) format("ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
 body #bingc-phone-sample span {
     display: none;
 }
@@ -204,16 +212,21 @@ body #bingc-phone-sample:after {
 }
 
 .stats-top-text{
-    font-family: Roboto;
-    font-size: 50px;
+    font-family: Gotham-Bold, sans-serif;
+    font-size: clamp(1.375rem ,.7715517241rem + 3.0172413793vw ,3.125rem);
     color: white;
+    font-weight: normal;
     margin-bottom: 0px;
+    line-height: 130%;
 }
 
 .stats-bottom-text{
-    font-family: Roboto;
-    font-size: 22px;
+    font-family: ProximaNova, sans-serif;
+    font-size: clamp(.75rem ,.4698275862rem + 1.400862069vw ,1.5625rem);;
     color: white;
+    letter-spacing: .02em;
+    line-height: 130%;
+    word-wrap: break-word;
 }
 
 #izuchenie{
@@ -222,12 +235,15 @@ body #bingc-phone-sample:after {
 
 #stats{
     position: absolute;
-    width: 75%;
-    height: auto;
+    width: 85%;
     right: 0;
     left: 0;
     top: -25%;
     margin: 0 auto;
+}
+
+#stats p{
+    margin-bottom: 0;
 }
 
 @media  only screen and (max-width: 767px) {
