@@ -9,8 +9,8 @@ get_header(); ?>
 
     <div id="izuchenie">
         <div id="stats" class="rounded shadow-lg d-flex justify-content-evenly align-items-end"
-             style="background: linear-gradient(269.35deg, #DAA520 0%, #DAC471 42.71%, #DAC471 61.98%, #DAA520 100%); height: 110px">
-            <div class="text-center h-100">
+             style="background: linear-gradient(269.35deg, #DAA520 0%, #DAC471 42.71%, #DAC471 61.98%, #DAA520 100%); height: 130px">
+            <div class="text-center" style = "height: 85%">
                 <p class="stats-top-text">
                     <b>8</b></p>
                 <p class="stats-bottom-text">
@@ -18,7 +18,7 @@ get_header(); ?>
             </div>
             <div class="my-auto"><img src="/wp-content/themes/marqar_theme/assets/images/lineforstats.png">
             </div>
-            <div class="text-center h-100">
+            <div class="text-center" style = "height: 85%">
                 <p class="stats-top-text"><b>28 000+</b></p>
                 <p class="stats-bottom-text">
                     Подписчиков</p>
@@ -26,7 +26,7 @@ get_header(); ?>
             <div class="my-auto"><img class="h-75 w-100"
                                       src="/wp-content/themes/marqar_theme/assets/images/lineforstats.png">
             </div>
-            <div class="text-center h-100">
+            <div class="text-center" style = "height: 85%">
                 <p class="stats-top-text">
                     <b>30+</b></p>
                 <p class="stats-bottom-text">
@@ -364,13 +364,11 @@ get_header(); ?>
             let btn = document.getElementById("showCasesBtn");
             btn.style.display += " none";
             let cases = document.getElementsByClassName("hidden-cases");
-            for (let i = 0; i<cases.length; i++) {
+            for (let i = 0; i < cases.length; i++) {
                 cases[i].style.display += " flex";
-
             }
         }
     </script>
-
     <?php
     get_footer();
     ?>
@@ -598,9 +596,10 @@ get_header(); ?>
         <div class="container">
             <div class="text-start footer-text-main-mob"><p>Мы в социальных сетях:</p></div>
             <div name="social-media" class="w-100 social-media">
-                <a href=""><i class="fa fa-instagram fa-2x"></i></a>
-                <a href=""><i class="fa fa-youtube-play fa-2x"></i></a>
-                <a href=""><i class="fa fa-telegram fa-2x"></i></a>
+                <a href=https://instagram.com/marqar_company?igshid=YmMyMTA2M2Y=><i
+                            class="fa fa-instagram fa-2x"></i></a>
+                <a href=https://youtube.com/c/MARQAR><i class="fa fa-youtube-play fa-2x"></i></a>
+                <a href=https://t.me/marqarofficial><i class="fa fa-telegram fa-2x"></i></a>
             </div>
             <div class="text-start mt-4 footer-text-main-mob"><p>Контакты:</p></div>
             <div name="contacts" class="footer-text-mob">
@@ -610,20 +609,6 @@ get_header(); ?>
             </div>
         </div>
     </div>
-
-    <!-- telegram -->
-    <a href="https://t.me/MARQAR_FAQBOT" target="_blank" title="Написать в Telegram" rel="noopener noreferrer">
-        <div class="telegram-button">
-            <img src="<?php echo get_template_directory_uri() . '/assets/images/tg.png' ?>">
-        </div>
-    </a>
-
-    <!-- viber -->
-    <a href="viber://chat?number=87770821922" target="_blank" title="Позвонить через viber" rel="noopener noreferrer">
-        <div class="viber-button">
-            <img src="<?php echo get_template_directory_uri() . '/assets/images/viber.png' ?>">
-        </div>
-    </a>
 
     <script name="call-back" type="text/javascript">
         (function (d, w, s) {

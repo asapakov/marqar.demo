@@ -16,6 +16,38 @@ body #bingc-phone-sample:after {
     content: "Не резидентам РК за пределами КЗ - обращаться в Телеграмм";
 }
 
+.nav-links {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D5E2F3;
+    line-height: 19px;
+}
+
+.nav-links:hover {
+    color: #DAAB31;
+    text-decoration: none;
+}
+
+.logInClass {
+    background: none;
+    border: 1px solid #DAAB31;
+}
+
+.logInBtn {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #DAAB31;
+    text-decoration: none;
+}
+
+.logInBtn:hover {
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+    color: white;
+}
+
 .feedback {
     position: relative;
     z-index: 1;
@@ -165,7 +197,7 @@ body #bingc-phone-sample:after {
     }
 }
 
-@media (max-width: 425px) {
+/*@media (max-width: 425px) {
     .telegram-button {
         bottom: 0;
         right: 0;
@@ -175,7 +207,7 @@ body #bingc-phone-sample:after {
         right: 0 !important;
         bottom: 80px;
     }
-}
+}*/
 
 .viber-button img,
 .telegram-button img {
@@ -207,10 +239,10 @@ body #bingc-phone-sample:after {
 }
 
 .stats-top-text {
-    font-family: Gotham-Bold, sans-serif;
-    font-size: 50px;
+    font-family: Gotham;
+    font-weight: 350;
+    font-size: 48px;
     color: white;
-    font-weight: normal;
     margin-bottom: 0px;
     line-height: 130%;
 }
@@ -479,4 +511,35 @@ body #bingc-phone-sample:after {
 
 .hidden-cases{
     display: none;
+}
+
+.accordion-item, .accordion{
+    background: transparent;
+}
+
+.accordion-flush{
+    background: transparent;
+    color: white;
+}
+.accordion-button{
+    background: transparent;
+    color: #DAAB31;
+}
+
+.card-lesson{
+    background: transparent;
+    border-radius: 8px;
+}
+
+.card-lesson h5{
+    margin-top: 15px;
+    margin-left: 6px;
+    color: white;
+}
+
+.card-lesson p{
+    margin-top: 15px;
+    margin-left: 6px;
+    color: #a0aec9;
+    padding: 6px 0;
 }

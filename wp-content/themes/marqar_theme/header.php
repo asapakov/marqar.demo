@@ -1,52 +1,3 @@
-<?php
-/**
- * The header.
- *
- * This is the template that displays all of the <head> section and everything up until main.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-?>
-<style>
-    .nav-links {
-        font-family: Roboto;
-        font-weight: 400;
-        font-size: 16px;
-        color: #D5E2F3;
-        line-height: 19px;
-    }
-
-    .nav-links:hover {
-        color: #DAAB31;
-        text-decoration: none;
-    }
-
-    .logInClass {
-        background: none;
-        border: 1px solid #DAAB31;
-    }
-
-    .logInBtn {
-        font-family: Roboto;
-        font-weight: 400;
-        font-size: 16px;
-        color: #DAAB31;
-        text-decoration: none;
-    }
-
-    .logInBtn:hover {
-        transform: scale(1.03);
-        transition-duration: 0.5s;
-        color: white;
-    }
-
-</style>
-
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
@@ -78,11 +29,6 @@
         <div class="container align-items-center">
             <a class="navbar-brand text-center" href="/"><img
                         src="/wp-content/themes/marqar_theme/assets/images/logo-2.png" alt=""></a>
-            <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars" style="color: #DAAB31"></i>
-            </button>-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">

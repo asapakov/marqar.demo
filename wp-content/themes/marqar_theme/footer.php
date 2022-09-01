@@ -11,8 +11,6 @@
  */
 
 ?>
-
-
 <section class="d-flex page__feedback feedback">
     <div class="feedback__box">
         <h2 class="feedback__title">Свяжитесь с нами</h2>
@@ -26,9 +24,7 @@
     </div>
 </section>
 
-
 <footer>
-
     <div class="py-4"
          style="background-image: url(/wp-content/themes/marqar_theme/assets/images/rectangle-7-300x113.png);">
         <div class="d-flex">
@@ -39,9 +35,9 @@
         </div>
         <div class="d-flex text-light justify-content-around mt-4">
             <div name="social-media" class="social-media-footer d-flex justify-content-between col-2 ms-5">
-                <div><a href=""><i class="fa fa-instagram fa-2x"></i></a></div>
-                <div><a href=""><i class="fa fa-youtube-play fa-2x"></i></a></div>
-                <div><a href=""><i class="fa fa-telegram fa-2x"></i></a></div>
+                <div><a href=https://instagram.com/marqar_company?igshid=YmMyMTA2M2Y=><i class="fa fa-instagram fa-2x"></i></a></div>
+                <div><a href=https://youtube.com/c/MARQAR><i class="fa fa-youtube-play fa-2x"></i></a></div>
+                <div><a href=https://t.me/marqarofficial><i class="fa fa-telegram fa-2x"></i></a></div>
             </div>
             <div class="d-flex my-auto">
                 <img style="height: 22px" src=/wp-content/themes/marqar_theme/assets/images/footer-map-icon.png>
